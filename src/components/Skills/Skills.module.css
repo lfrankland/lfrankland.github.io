@@ -2,21 +2,24 @@
 	padding: 32px 64px;
 }
 
-
 .list {
-	display: grid;
-	grid-template-columns: 100px 100px 100px;
-	grid-template-rows: 100px;
-	grid-row: auto;
-	grid-gap: 16px;
+	display: flex;
+	flex-wrap: wrap;
 	list-style: none;
+	justify-content: center;
+	padding: 0;
+	margin: 8px -8px;
+	max-width: 720px;
 }
 
-.skill{
-	border-radius: 50%;
-	background: white;
-	display: flex;
-	justify-content: center;
+.skill {
 	align-items: center;
+	background-color: white;
+	border-radius: 50%;
+	display: flex;
+	height: 96px;
+	justify-content: center;
+	margin: 8px;
 	padding: 16px;
+	width: 96px;
 }
