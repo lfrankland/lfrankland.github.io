@@ -1,5 +1,5 @@
 .homeHeader {
-	background: linear-gradient(hsl(280, 80%, 35%), hsl(275, 78%, 32%));
+	background: linear-gradient(hsl(280, 80%, 35%), hsl(275, 78%, 20%));
 	color: rgb(227, 238, 64);
 	display: flex;
 	flex-direction: column;
