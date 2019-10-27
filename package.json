@@ -4,12 +4,12 @@
   "version": "1.0.0",
   "author": "Louis Frankland <louis@frank.land>",
   "dependencies": {
-    "gatsby": "2.0.0",
+    "gatsby": "^2.0.0",
     "gatsby-plugin-google-fonts": "0.0.4",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.0"
   },
   "keywords": [
     "gatsby"
