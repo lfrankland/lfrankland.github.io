@@ -11,6 +11,12 @@ module.exports = {
           `cabin\:600,600i`
         ]
       }
+    },
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
+      }
     }
   ],
 }
