@@ -1,0 +1,16 @@
+.skills {
+	padding: 32px 64px;
+	border-bottom: 1px solid black;
+}
+
+.list {
+	columns: 2;
+}
+
+.title {
+	margin-bottom: 8px;
+}
+
+.skill {
+	margin-bottom: 8px;
+}

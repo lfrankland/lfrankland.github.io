@@ -1,5 +1,10 @@
 .tools {
 	padding: 32px 64px;
+	border-bottom: 1px solid black;
+}
+
+.Title {
+	margin-bottom: 8px;
 }
 
 .list {
@@ -9,7 +14,6 @@
 	justify-content: center;
 	padding: 0;
 	margin: 8px -8px;
-	max-width: 720px;
 }
 
 .tool {
@@ -19,7 +23,7 @@
 	display: flex;
 	height: 96px;
 	justify-content: center;
-	margin: 8px;
+	margin: 8px 32px;
 	padding: 16px;
 	width: 96px;
 }

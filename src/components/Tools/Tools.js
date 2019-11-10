@@ -1,11 +1,5 @@
 import React from 'react'
 import styles from './Tools.module.css';
-//import html5 from './logos/html5.svg';
-//import css3 from './logos/css3.svg';
-//import sass from './logos/sass.svg';
-//import axure from './logos/axure.svg';
-//import illustrator from './logos/illustrator.svg';
-//import photoshop from './logos/photoshop.svg';
 
 const Tools = () => (
 	<div className={styles.tools}>
