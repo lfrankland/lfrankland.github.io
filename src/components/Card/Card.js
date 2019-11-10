@@ -3,7 +3,7 @@ import styles from './Card.module.css';
 
 const Card = () => (
 	<div className={styles.Card}>
-		<img src="https://placeimg.com/320/180/tech/grayscale" alt="Placeholder image" /> 
+		<img src="https://placeimg.com/320/180/tech/grayscale" alt="Placeholder" /> 
 		<h3 className={styles.title}>Card Title</h3>
 	</div>
 )
