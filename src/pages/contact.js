@@ -2,9 +2,11 @@ import React from 'react'
 import Layout from '..//components/layout'
 import Contact from '..//components/contact'
 
-export default function contact() {
+const BlogIndex = ({ data, location }) => {
+  const siteTitle = data.site.siteMetadata.title
+  
   return (
-    <Layout>
+    <Layout location={location} title={siteTitle}>
       <Contact />
     </Layout>
   )
