@@ -1,0 +1,19 @@
+.blogHeader {
+	background: black;
+	color: white;
+	padding: 96px 0;
+}
+
+.blogHeaderContent {
+	max-width: 720px;
+	margin: auto;
+	padding: 0 32px;
+}
+
+.blogHeaderContent p {
+	margin-bottom: 0;
+}
+
+.blogHeaderContent h1 {
+	font-size: 3em;
+}
