@@ -3,7 +3,7 @@ module.exports = {
     title: `Louis Frankland`,
     author: {
       name: `Louis Frankland`,
-      summary: `who lives and works in Leeds design and building user interfaces.`,
+      summary: `User Experience designer, with extensive experience in producing responsive, accessible and easy to use digital products and services for a wide range of audiences.`,
     },
     description: `Louis Frankland's User Experience Design Portfolio.`,
     siteUrl: `https://louisfrankland.com/`,
