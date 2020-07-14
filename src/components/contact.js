@@ -4,13 +4,21 @@ import styles from './contact.module.css'
 const Contact = () => (
 	<main className={styles.contact}> 
 		<h1>Get in touch</h1>
-		<p>You can reach out to me via:
-			<ul>
-				<li>Emailing me at <a href="mailto:louis@frank.land">louis@frank.land</a></li>
-				<li>Connecting me on <a href="https://www.linkedin.com/in/louisfrankland/">LinkedIn</a></li>
-				<li>Following me on <a href="https://twitter.com/louisfrankland">Twitter</a></li>
-			</ul>
-		</p>
+		<form action="https://getform.io/f/120128c8-0857-4706-9509-059d5ff49793" method="POST">
+			<div className={styles.field}>
+				<label htmlFor="name">Name</label>
+				<input type="text" name="name" id="name"/>
+			</div>
+			<div for="email" className={styles.field}>
+				<label htmlFor="email">Email address</label>
+				<input type="email" name="email" id="email"/>
+			</div>
+			<div className={styles.field}>
+				<label htmlFor="message">Message</label>
+				<textarea name="message" id="message"></textarea>
+			</div>
+			<button className="button" type="submit">Send</button>
+		</form>
 	</main>
 )
 
