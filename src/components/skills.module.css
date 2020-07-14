@@ -1,0 +1,38 @@
+.skills {
+	padding: 32px 64px;
+	border-bottom: 1px solid black;
+}
+
+.list {
+	padding: 0;
+}
+
+.title {
+	margin-bottom: 24px;
+}
+
+.skill {
+	margin-bottom: 24px;
+	margin-left: 0;
+	padding: 0 8px;
+	border-left: 1px solid black;
+	list-style: none;	
+}
+
+.skill p {
+	margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+	.list {
+		display: grid;
+		grid-template-columns: repeat(2, 50%);
+		grid-gap: 16px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.list {
+		grid-template-columns: repeat(3, 33%);
+	}
+}

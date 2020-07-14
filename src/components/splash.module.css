@@ -1,0 +1,44 @@
+.splash {
+	align-items: center;	
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 24px 16px;
+	text-align: center;
+}
+
+.title {
+	font-size: 2rem;
+	text-decoration: none;	
+}
+
+.subTitle {
+	font-size: 1.2rem;
+	line-height: 1.4;
+	margin-bottom: 16px;
+}
+
+.description {
+	max-width: 85ch;
+}
+
+@media (min-width: 640px) {
+	.splash {
+		align-items: flex-start;
+		justify-content: flex-end;			
+		padding: 96px 64px;
+		text-align:left;
+	}
+	.title {
+		font-size: 4rem;
+	}
+	.subTitle {
+		font-size: 1.4rem;
+		line-height: 1.2;
+	}
+	.description {
+		line-height: 1.6;
+		max-width: 85ch;
+	}
+}
