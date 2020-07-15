@@ -3,12 +3,11 @@ import { Link, graphql } from 'gatsby'
 import Img from "gatsby-image"
 
 import Layout from '../components/layout'
+import Container from '../components/container'
 import SEO from '../components/seo'
 import Splash from '../components/splash'
 import Skills from '../components/skills'
 import Tools from '../components/tools'
-
-
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -20,13 +19,14 @@ const BlogIndex = ({ data, location }) => {
       <Splash />
       <Skills />
       <Tools />
-      <div class="projects">
-        <h2>Work</h2>
-        <div class="projectList">
+      <Container>
+      <div className="projects">
+        <h2 className="title">Projects</h2>
+        <div className="projectList">
         {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-              <Link  key={node.fields.slug} to={node.fields.slug} class="project">
+              <Link  key={node.fields.slug} to={node.fields.slug} className="project">
                 <Img fluid={node.frontmatter.thumbnail.childImageSharp.fluid} />
                 <div className="projectDetails">
                   <h3 className="projectTitle">{title}</h3>
@@ -37,6 +37,7 @@ const BlogIndex = ({ data, location }) => {
           })}
         </div>  
       </div>
+      </Container>
     </Layout>
   )
 }

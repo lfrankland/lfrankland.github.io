@@ -1,6 +1,7 @@
 .splash {
 	align-items: center;	
-	border-bottom: 1px solid black;
+	background: var(--main-gradient);
+	color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -10,7 +11,9 @@
 
 .title {
 	font-size: 2rem;
-	text-decoration: none;	
+	line-height: 1;
+	margin-bottom: 16px;
+	text-decoration: none;
 }
 
 .subTitle {
@@ -20,7 +23,7 @@
 }
 
 .description {
-	max-width: 85ch;
+	line-height: 1.6;
 }
 
 @media (min-width: 640px) {
@@ -36,9 +39,5 @@
 	.subTitle {
 		font-size: 1.4rem;
 		line-height: 1.2;
-	}
-	.description {
-		line-height: 1.6;
-		max-width: 85ch;
 	}
 }
