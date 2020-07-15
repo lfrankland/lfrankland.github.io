@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Louis Frankland]]></title><description><![CDATA[Louis Frankland's User Experience Design Portfolio.]]></description><link>https://louisfrankland.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 14 Jul 2020 14:02:07 GMT</lastBuildDate><item><title><![CDATA[Enable LMS]]></title><description><![CDATA[As the UX developer for Enable LMS, I delivered throughout the lifecycle of feature development.  Conceptualising all features such as…]]></description><link>https://louisfrankland.com/enable-lms/</link><guid isPermaLink="false">https://louisfrankland.com/enable-lms/</guid><pubDate>Mon, 13 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;As the UX developer for Enable LMS, I delivered throughout the lifecycle of feature development.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Louis Frankland]]></title><description><![CDATA[Louis Frankland's User Experience Design Portfolio.]]></description><link>https://louisfrankland.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 15 Jul 2020 14:07:37 GMT</lastBuildDate><item><title><![CDATA[Enable LMS]]></title><description><![CDATA[About Enable LMS The Enable LMS is a powerful Enterprise-level system, designed to facilitate the eLearning delievery across many different…]]></description><link>https://louisfrankland.com/enable-lms/</link><guid isPermaLink="false">https://louisfrankland.com/enable-lms/</guid><pubDate>Mon, 13 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;About Enable LMS&lt;/h2&gt;
+&lt;p&gt;The Enable LMS is a powerful Enterprise-level system, designed to facilitate the eLearning delievery across many different sectors and audiences, from individual learners to multi-national organisations. My goal was to ensure it could meet all these needs effectively, giving learners, training professionals and Virtual College staff the tools and abilities to exceed their expectations.&lt;/p&gt;
+&lt;h3&gt;Key features&lt;/h3&gt;
+&lt;p&gt;The learning platform had the following features which I designed:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Learning creation&lt;/strong&gt; - assessments, evaluations, certificate and course editing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learning management&lt;/strong&gt; - automated allocating courses, categories, reporting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Group and user management&lt;/strong&gt; - user profiles, facilitating allocating, resource management and discussions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Job role management&lt;/strong&gt; - creating and managing employee appraisals&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Event management&lt;/strong&gt; - event creation, inviting, management, registering and reporting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;System management&lt;/strong&gt; - customer feature management, branding, registration, course licencing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Background&lt;/h3&gt;
+&lt;p&gt;It was identified that the Virtual College’s Enable LMS platform needed rebuilding from the ground up to replace the existing system. The key tenents were that the new system had to be responsive for multiple device types and accessible for a varied auidence.&lt;/p&gt;
+&lt;h2&gt;My role&lt;/h2&gt;
+&lt;p&gt;User Research, User Experience Design, Personas, Documentation, Frontend, HTML, CSS, Sass&lt;/p&gt;
+&lt;h2&gt;Research&lt;/h2&gt;
+&lt;p&gt;As Virtual College had an existing system, we quickly identified the core functionality we would need to replace. Speaking to customers, stakeholders and the wider organisation, we prioritised these to deliverable features which were designed and developed.&lt;/p&gt;
+&lt;h2&gt;Conceptualization&lt;/h2&gt;
+&lt;p&gt;For each of the key features, I facilitated the ideation process amongst product owners and developers. Creating wireframes from these workshops which then fedback into iterative workshops to define the solution we would deliever.&lt;/p&gt;
+&lt;h2&gt;Design&lt;/h2&gt;
+&lt;p&gt;As well as designing each of the features, I also kept a holistic view of the application, ensuring that existing features could be utilised where appropriate. I also implemented a rebrand of Enable LMS when the organisations brand was updated, ensuring it still met our accessibility targets.&lt;/p&gt;
+&lt;h2&gt;Frontend&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin:0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)&quot;
@@ -131,7 +153,10 @@ My role also included usability testing new and existing features to get valuabl
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[VC Pattern Library]]></title><description><![CDATA[The Virtual College Frontend Pattern Library was used to rapidly build new features and standardise the development process across multiple…]]></description><link>https://louisfrankland.com/vc-pattern-library/</link><guid isPermaLink="false">https://louisfrankland.com/vc-pattern-library/</guid><pubDate>Sat, 20 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The Virtual College Frontend Pattern Library was used to rapidly build new features and standardise the development process across multiple applications. The goal was to facilitate consistency, reusability and reduce maintenance.&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[VC Pattern Library]]></title><description><![CDATA[The challenge To ensure consistent front-end development to ensure rapid creation and testing of new products and features to a high…]]></description><link>https://louisfrankland.com/vc-pattern-library/</link><guid isPermaLink="false">https://louisfrankland.com/vc-pattern-library/</guid><pubDate>Sat, 20 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The challenge&lt;/h2&gt;
+&lt;p&gt;To ensure consistent front-end development to ensure rapid creation and testing of new products and features to a high standard.&lt;/p&gt;
+&lt;h2&gt;The solution&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&quot;https://virtualcollege.github.io/vc-app-patterns/#/&quot;&gt;Virtual College Frontend Pattern Library&lt;/a&gt; was used to rapidly build new features and standardise the development process across multiple applications. The goal was to facilitate consistency, reusability and reduce maintenance.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin:0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)&quot;
@@ -164,8 +189,25 @@ My role also included usability testing new and existing features to get valuabl
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I developed and maintained the components to ensure they were accessible, browser-compliant and responsive across devices.&lt;/p&gt;
-&lt;p&gt;I developed new components where they were needed, coaching developers through the best use of the pattern library and how to implement it in production. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Enable Audit]]></title><description><![CDATA[My role on Enable Audit was to research, design and help develop the service. I was critical at each part of the process working with…]]></description><link>https://louisfrankland.com/enable-audit/</link><guid isPermaLink="false">https://louisfrankland.com/enable-audit/</guid><pubDate>Mon, 01 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;My role on Enable Audit was to research, design and help develop the service. I was critical at each part of the process working with stakeholders to design the audit template editor to management, carrying out and reporting and reporting of the results of audits.&lt;/p&gt;
+&lt;h3&gt;Design&lt;/h3&gt;
+&lt;p&gt;Breaking down the elements and where they could be standarised and reused. Building each one with a mobile-first methodology and testing them against the Web Content Accessibility Guidelines (WCAG) AA 2.0 standard.&lt;/p&gt;
+&lt;h3&gt;Creation&lt;/h3&gt;
+&lt;p&gt;Building a stand-alone pattern library to facilitate the adoption of the new patterns. Hand-built using HTML and Sass to ensure clean markup.&lt;/p&gt;
+&lt;h2&gt;Adoption&lt;/h2&gt;
+&lt;p&gt;The key success to the pattern library was getting developers on board. Throughout it’s development I coahced team members in how best to use it, and using their comments to feedback into the &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Enable Audit]]></title><description><![CDATA[The challenge Allowing organisations to remotely carry out in-depth audits of polices and procedures across multiple sectors and audiences…]]></description><link>https://louisfrankland.com/enable-audit/</link><guid isPermaLink="false">https://louisfrankland.com/enable-audit/</guid><pubDate>Mon, 01 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The challenge&lt;/h2&gt;
+&lt;p&gt;Allowing organisations to remotely carry out in-depth audits of polices and procedures across multiple sectors and audiences.&lt;/p&gt;
+&lt;h2&gt;My role&lt;/h2&gt;
+&lt;p&gt;User Research, User Experience Design, Personas, Documentation, Frontend, HTML, CSS, Sass&lt;/p&gt;
+&lt;h2&gt;Background&lt;/h2&gt;
+&lt;p&gt;Enable Audit arose after speaking with existing and customers and identifying a need for them to track their compliance across multiple locations in a data-secure manner. They were doing this by paper or spreadsheets which had a high administration burden and low return rate from those asked to complete them.&lt;/p&gt;
+&lt;h2&gt;Research&lt;/h2&gt;
+&lt;p&gt;As well as reviewing competitors, we carried out surveys for customers and conducted user interviews to gain a holistic view of the processes, bottlenecks and how they perceived them. From these interviews and surveys.&lt;/p&gt;
+&lt;h2&gt;Conceptualization&lt;/h2&gt;
+&lt;p&gt;From the research, user personas, journey maps and workflows were produced as part of an agile team. Faciliating multiple workshops with developers, product owners and stakeholders to gain a broad perspective about what was possible and identify where value could be most gained.&lt;/p&gt;
+&lt;h2&gt;Wireframing and prototyping&lt;/h2&gt;
+&lt;p&gt;Working iteratively to create paper wireframes in the early stages and getting regular feedback from members of the team and potential clients. These evolved into interactive wireframes, which allowed the product and development team to understand the solution we were aiming to build. As the process evolved, I worked closely with the product owner to document each of the features so they can be developed as part of an agile team.&lt;/p&gt;
+&lt;h2&gt;Frontend development&lt;/h2&gt;
+&lt;p&gt;As well as designing the the product, I also developed the frontend. This involved building new components and revising others for the Virtual College Pattern Library. The components were handcoded in HTML and Sass with each one tested for accessibility, compatibility and performance. I coached the developement team to ensure best practice was used when implementing these in the final code.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin:0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)&quot;
@@ -198,7 +240,6 @@ My role also included usability testing new and existing features to get valuabl
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I facilitated the research of Enable Audit, carrying out surveys, conducting in-depth customer interviews to fully understand the challenges Enable Audit was aiming to solve.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin:0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)&quot;
@@ -231,7 +272,6 @@ My role also included usability testing new and existing features to get valuabl
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Creating interactive wireframes to showcase user journeys and outcomes, working with the product and development team to define system vocabulary, process,&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin:0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)&quot;
