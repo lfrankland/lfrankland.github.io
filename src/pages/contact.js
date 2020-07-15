@@ -1,12 +1,13 @@
 import React from 'react'
 import Layout from '..//components/layout'
+import SEO from "../components/seo"
 import Contact from '..//components/contact'
 
 const ContactPage = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
   
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} >
+      <SEO title="Contact" />
       <Contact />
     </Layout>
   )
