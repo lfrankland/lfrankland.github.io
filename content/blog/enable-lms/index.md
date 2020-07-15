@@ -1,7 +1,7 @@
 ---
 title: Enable LMS
 date: "2020-07-13T00:00:00.284Z"
-description: "Virtual College’s premier Learning Management System has helped over four million learners reach with their personal and career development. The multi-functional platform has been designed to be easily used for both learners and training administrators."
+description: "Faciliating the learning journey for over four million users reach with their personal and career development."
 featuredImage: salty_egg.jpg
 thumbnail: "../../assets/enable-lms.png"
 tags: Design, Frontend, Usability, Research

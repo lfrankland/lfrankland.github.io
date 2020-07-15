@@ -44,15 +44,31 @@ section {
 
 .project {
 	background-color: #f6f6f6;
+	color: var(--main-text-color);
 	display: block;
-	flex: none;
-	margin: 32px;
-	width: 320px;
+	width: 100%;
 	text-align:  center;
 	text-decoration: none;
 }
 
 .projectTitle {
-	padding: 16px;
-	color: var(--main-text-color);
+	margin-bottom: 8px;
+}
+
+@media (min-width: 640px) {
+	.project {
+		display: flex;
+		margin-bottom: 24px;
+	}
+
+	.project .gatsby-image-wrapper {
+		width: 50%;
+	}
+
+	.projectDetails {
+		width: 50%;
+		text-align: left;
+		padding: 16px;
+	}
+
 }

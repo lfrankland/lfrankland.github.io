@@ -26,13 +26,13 @@ const BlogIndex = ({ data, location }) => {
         {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
             return (
-              <article key={node.fields.slug} >
-                <Link to={node.fields.slug} class="project">
-                  <Img fluid={node.frontmatter.thumbnail.childImageSharp.fluid} />
+              <Link  key={node.fields.slug} to={node.fields.slug} class="project">
+                <Img fluid={node.frontmatter.thumbnail.childImageSharp.fluid} />
+                <div className="projectDetails">
                   <h3 className="projectTitle">{title}</h3>
                   <p>{node.frontmatter.description}</p>
-                </Link> 
-              </article>
+                </div>
+              </Link>  
             )
           })}
         </div>  
@@ -63,7 +63,7 @@ export const pageQuery = graphql`
             description
             thumbnail {
               childImageSharp {
-                fluid(maxWidth: 320) {
+                fluid(maxWidth: 640) {
                   ...GatsbyImageSharpFluid
                 }
               }
