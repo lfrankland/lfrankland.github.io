@@ -21,7 +21,7 @@ const BlogIndex = ({ data, location }) => {
       <Skills />
       <Tools />
       <div class="projects">
-        <h2>Projects</h2>
+        <h2>Work</h2>
         <div class="projectList">
         {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
@@ -30,6 +30,7 @@ const BlogIndex = ({ data, location }) => {
                 <Link to={node.fields.slug} class="project">
                   <Img fluid={node.frontmatter.thumbnail.childImageSharp.fluid} />
                   <h3 className="projectTitle">{title}</h3>
+                  <p>{node.frontmatter.description}</p>
                 </Link> 
               </article>
             )

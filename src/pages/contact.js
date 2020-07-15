@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '..//components/layout'
 import Contact from '..//components/contact'
 
-const BlogIndex = ({ data, location }) => {
+const ContactPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   
   return (
@@ -11,3 +11,5 @@ const BlogIndex = ({ data, location }) => {
     </Layout>
   )
 }
+
+export default ContactPage
