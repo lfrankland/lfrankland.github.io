@@ -17,6 +17,7 @@ The learning platform had the following features which I designed:
 - **Group and user management** - user profiles, facilitating allocating, resource management and discussions
 - **Job role management** - creating and managing employee appraisals
 - **Event management** - event creation, inviting, management, registering and reporting
+- **Internationalisation** - supporting multiple langauages, including right-to-left direction
 - **System management** - customer feature management, branding, registration, course licencing
 
 ### Background
