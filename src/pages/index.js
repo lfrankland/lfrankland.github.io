@@ -20,8 +20,8 @@ const BlogIndex = ({ data, location }) => {
       <Skills />
       <Tools />
       <Container>
-      <div className="projects">
-        <h2 className="title">Projects</h2>
+      <div className="projects" id="projects">
+        <h2 className="title" >Projects</h2>
         <div className="projectList">
         {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
