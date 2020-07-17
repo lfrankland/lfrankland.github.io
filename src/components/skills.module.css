@@ -16,7 +16,6 @@
 	margin-bottom: 24px;
 	margin-left: 0;
 	padding: 0 8px;
-	border-left: 1px solid black;
 	list-style: none;	
 }
 
@@ -28,12 +27,6 @@
 	.list {
 		display: grid;
 		grid-template-columns: repeat(2, 50%);
-		grid-gap: 16px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.list {
-		grid-template-columns: repeat(3, 33%);
+		grid-gap: 32px;
 	}
 }

@@ -8,20 +8,20 @@ const Skills = () => (
 			<h2 className={styles.title}>Skills</h2>
 			<ul className={styles.list}>
 				<li className={styles.skill}>
+					<h3>Front-end development</h3>
+					<p>Over ten years experience in front-end web development. Keeping up-to-date with the latest technologies, such as CSS Grid to create working, accessible and maintainable front-end code.</p>
+				</li>
+				<li className={styles.skill}>
+					<h3>Collaborative design</h3>
+					<p>Working with others, be that other designers, developers, stakeholders - or most importantly - end users, I get results which were never thought possible.</p>
+				</li>
+				<li className={styles.skill}>					
 					<h3>Ideation</h3>
 					<p>A good idea is the first step in any new project. I have years of experience of rapid  ideation to  nurture ideas into delivered products and services.</p>
 				</li>
 				<li className={styles.skill}>
 					<h3>Prototyping</h3>
 					<p>Depending on the stage of development and your audience, lo-fi sketches on whiteboards to high quality part-functional prototypes I have produced have saved time and money in product development.</p>
-				</li>
-				<li className={styles.skill}>
-					<h3>Collaborative design</h3>
-					<p>Working with others, be that other designers, developers, stakeholders - or most importantly - end users, I get results which were never thought possible.</p>
-				</li>
-				<li className={styles.skill}>
-					<h3>Front-end development</h3>
-					<p>Over ten years experience in front-end web development. Keeping up-to-date with the latest technologies, such as CSS Grid to create working, accessible and maintainable front-end code.</p>
 				</li>
 				<li className={styles.skill}>
 					<h3>User research</h3>

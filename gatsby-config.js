@@ -35,7 +35,6 @@ module.exports = {
             options: {
               maxWidth: 720,
               wrapperStyle:`margin:24px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)`,
-
             },
           },
           {
@@ -66,7 +65,7 @@ module.exports = {
         short_name: `Louis Frankland`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#ff5100`,
+        theme_color: `#9d3493`,
         display: `minimal-ui`,
         icon: `content/assets/lf-icon.png`,
       },

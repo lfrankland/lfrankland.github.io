@@ -19,7 +19,7 @@
 
 
 .contact input {
-	border: 2px solid transparent;
+	border: 2px solid var(--main-grey);
 	height: 56px;	
 	font-size: 16px;
 	outline: none;
@@ -28,7 +28,7 @@
 }
 
 .contact textarea {
-	border: 2px solid transparent;
+	border: 2px solid var(--main-grey);
 	height: 128px;
 	outline: none;
 	width: 100%;

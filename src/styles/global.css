@@ -1,5 +1,6 @@
 :root {
 	--main-bg-color: #eee;
+	--main-grey: #ccc;
 	--main-text-color: #111;
 	--main-gradient: 	linear-gradient(to left, #8e44ad, #ad2579);
 	--max-width: 1200px;
