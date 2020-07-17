@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Louis Frankland]]></title><description><![CDATA[Louis Frankland's User Experience Design Portfolio.]]></description><link>https://louisfrankland.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Jul 2020 07:39:15 GMT</lastBuildDate><item><title><![CDATA[Enable LMS]]></title><description><![CDATA[About Enable LMS The Enable LMS is a powerful Enterprise-level system, designed to facilitate the eLearning delievery across many different…]]></description><link>https://louisfrankland.com/enable-lms/</link><guid isPermaLink="false">https://louisfrankland.com/enable-lms/</guid><pubDate>Mon, 13 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;About Enable LMS&lt;/h2&gt;
-&lt;p&gt;The Enable LMS is a powerful Enterprise-level system, designed to facilitate the eLearning delievery across many different sectors and audiences, from individual learners to multi-national organisations. My goal was to ensure it could meet all these needs effectively, giving learners, training professionals and Virtual College staff the tools and abilities to exceed their expectations.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Louis Frankland]]></title><description><![CDATA[Louis Frankland's User Experience Design Portfolio.]]></description><link>https://louisfrankland.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Jul 2020 08:07:47 GMT</lastBuildDate><item><title><![CDATA[Enable LMS]]></title><description><![CDATA[About Enable LMS The Enable LMS is a powerful Enterprise-level system, designed to facilitate the eLearning delivery across many different…]]></description><link>https://louisfrankland.com/enable-lms/</link><guid isPermaLink="false">https://louisfrankland.com/enable-lms/</guid><pubDate>Mon, 13 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;About Enable LMS&lt;/h2&gt;
+&lt;p&gt;The Enable LMS is a powerful Enterprise-level system, designed to facilitate the eLearning delivery across many different sectors and audiences, from individual learners to multi-national organisations. My goal was to ensure it could meet all these needs effectively, giving learners, training professionals and Virtual College staff the tools and abilities to exceed their expectations.&lt;/p&gt;
 &lt;h3&gt;Key features&lt;/h3&gt;
 &lt;p&gt;The learning platform had the following features which I designed:&lt;/p&gt;
 &lt;ul&gt;
@@ -12,7 +12,7 @@
 &lt;li&gt;&lt;strong&gt;System management&lt;/strong&gt; - customer feature management, branding, registration, course licencing&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Background&lt;/h3&gt;
-&lt;p&gt;It was identified that the Virtual College’s Enable LMS platform needed rebuilding from the ground up to replace the existing system. The key tenents were that the new system had to be responsive for multiple device types and accessible for a varied auidence.&lt;/p&gt;
+&lt;p&gt;It was identified that the Virtual College’s Enable LMS platform needed rebuilding from the ground up to replace the existing system. The key tenets were that the new system had to be responsive for multiple device types and accessible for a varied audience.&lt;/p&gt;
 &lt;h2&gt;My role&lt;/h2&gt;
 &lt;p&gt;User Research, User Experience Design, Personas, Documentation, Frontend, HTML, CSS, Sass&lt;/p&gt;
 &lt;h2&gt;Research&lt;/h2&gt;
@@ -20,7 +20,7 @@
 &lt;h2&gt;Conceptualization&lt;/h2&gt;
 &lt;p&gt;For each of the key features, I facilitated the ideation process amongst product owners and developers. Creating wireframes from these workshops which then fedback into iterative workshops to define the solution we would deliever.&lt;/p&gt;
 &lt;h2&gt;Design&lt;/h2&gt;
-&lt;p&gt;As well as designing each of the features, I also kept a holistic view of the application, ensuring that existing features could be utilised where appropriate. I also implemented a rebrand of Enable LMS when the organisations brand was updated, ensuring it still met our accessibility targets.&lt;/p&gt;
+&lt;p&gt;As well as designing each of the features, I also kept a holistic view of the application, ensuring that existing features could be utilised where appropriate. I also implemented a rebrand of Enable LMS when the organisation’s brand was updated, ensuring it still met our accessibility targets.&lt;/p&gt;
 &lt;h2&gt;Frontend&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -88,7 +88,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;As well as designing and documenting these features, I created and managed the frontend (HTML &amp;#x26; CSS) of Enable LMS. Using a component pattern library to ensure the platform was accessible to WCAG AA standards and improve development speed. &lt;/p&gt;
+&lt;p&gt;As well as designing and documenting these features, I created and managed the frontend (HTML &amp;#x26; CSS) of Enable LMS. Using a component pattern library to ensure the platform was accessible to WCAG AA standards and improve development speed.&lt;/p&gt;
 &lt;p&gt;Using my skills and expertise flexibly both in and out of agile-development sprints, I contributed across the board from helping shape the direction of Enable LMS to rapidly fixing issues and engaging with customers directly.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -121,8 +121,8 @@
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;
-My role also included usability testing new and existing features to get valuable feedback to constantly improve the product.&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;My role also included usability testing new and existing features to get valuable feedback to constantly improve the product.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin:24px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)&quot;
@@ -154,7 +154,9 @@ My role also included usability testing new and existing features to get valuabl
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[VC Pattern Library]]></title><description><![CDATA[The challenge To ensure consistent front-end development to ensure rapid creation and testing of new products and features to a high…]]></description><link>https://louisfrankland.com/vc-pattern-library/</link><guid isPermaLink="false">https://louisfrankland.com/vc-pattern-library/</guid><pubDate>Sat, 20 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The challenge&lt;/h2&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[VC Pattern Library]]></title><description><![CDATA[About the Virtual College Pattern Library The VC Pattern Library was used to code multiple products and services across different sectors…]]></description><link>https://louisfrankland.com/vc-pattern-library/</link><guid isPermaLink="false">https://louisfrankland.com/vc-pattern-library/</guid><pubDate>Sat, 20 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;About the Virtual College Pattern Library&lt;/h2&gt;
+&lt;p&gt;The VC Pattern Library was used to code multiple products and services across different sectors and audiences. &lt;/p&gt;
+&lt;h2&gt;The challenge&lt;/h2&gt;
 &lt;p&gt;To ensure consistent front-end development to ensure rapid creation and testing of new products and features to a high standard.&lt;/p&gt;
 &lt;h2&gt;The solution&lt;/h2&gt;
 &lt;p&gt;The &lt;a href=&quot;https://virtualcollege.github.io/vc-app-patterns/#/&quot;&gt;Virtual College Frontend Pattern Library&lt;/a&gt; was used to rapidly build new features and standardise the development process across multiple applications. The goal was to facilitate consistency, reusability and reduce maintenance.&lt;/p&gt;
@@ -191,56 +193,54 @@ My role also included usability testing new and existing features to get valuabl
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;h3&gt;Design&lt;/h3&gt;
-&lt;p&gt;Breaking down the elements and where they could be standarised and reused. Building each one with a mobile-first methodology and testing them against the Web Content Accessibility Guidelines (WCAG) AA 2.0 standard.&lt;/p&gt;
+&lt;p&gt;Breaking down the elements and where they could be standardised and reused. Building each one with a mobile-first methodology and testing them against the Web Content Accessibility Guidelines (WCAG) AA 2.0 standard.&lt;/p&gt;
 &lt;h3&gt;Creation&lt;/h3&gt;
 &lt;p&gt;Building a stand-alone pattern library to facilitate the adoption of the new patterns. Hand-built using HTML and Sass to ensure clean markup.&lt;/p&gt;
 &lt;h2&gt;Adoption&lt;/h2&gt;
-&lt;p&gt;The key success to the pattern library was getting developers on board. Throughout it’s development I coahced team members in how best to use it, and using their comments to feedback into the &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Enable Audit]]></title><description><![CDATA[The challenge Allowing organisations to remotely carry out in-depth audits of polices and procedures across multiple sectors and audiences…]]></description><link>https://louisfrankland.com/enable-audit/</link><guid isPermaLink="false">https://louisfrankland.com/enable-audit/</guid><pubDate>Mon, 01 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The challenge&lt;/h2&gt;
+&lt;p&gt;The key success to the pattern library was getting developers on board. Throughout its development I coached team members in how best to use it, and using their comments to feedback into the &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Enable Audit]]></title><description><![CDATA[About Enable Audit Enable The challenge Allowing organisations to remotely carry out in-depth audits of polices and procedures across…]]></description><link>https://louisfrankland.com/enable-audit/</link><guid isPermaLink="false">https://louisfrankland.com/enable-audit/</guid><pubDate>Mon, 01 Jun 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;About Enable Audit&lt;/h2&gt;
+&lt;p&gt;Enable&lt;/p&gt;
+&lt;h2&gt;The challenge&lt;/h2&gt;
 &lt;p&gt;Allowing organisations to remotely carry out in-depth audits of polices and procedures across multiple sectors and audiences.&lt;/p&gt;
 &lt;h2&gt;My role&lt;/h2&gt;
 &lt;p&gt;User Research, User Experience Design, Personas, Documentation, Frontend, HTML, CSS, Sass&lt;/p&gt;
 &lt;h2&gt;Background&lt;/h2&gt;
-&lt;p&gt;Enable Audit arose after speaking with existing and customers and identifying a need for them to track their compliance across multiple locations in a data-secure manner. They were doing this by paper or spreadsheets which had a high administration burden and low return rate from those asked to complete them.&lt;/p&gt;
+&lt;p&gt;Enable Audit arose after speaking with existing customers and identifying a need for them to track their compliance across multiple locations in a data-secure manner. They were doing this by paper or spreadsheets which had a high administration burden and low return rate from those asked to complete them.&lt;/p&gt;
 &lt;h2&gt;Research&lt;/h2&gt;
 &lt;p&gt;As well as reviewing competitors, we carried out surveys for customers and conducted user interviews to gain a holistic view of the processes, bottlenecks and how they perceived them. From these interviews and surveys.&lt;/p&gt;
-&lt;h2&gt;Conceptualization&lt;/h2&gt;
-&lt;p&gt;From the research, user personas, journey maps and workflows were produced as part of an agile team. Faciliating multiple workshops with developers, product owners and stakeholders to gain a broad perspective about what was possible and identify where value could be most gained.&lt;/p&gt;
-&lt;h2&gt;Wireframing and prototyping&lt;/h2&gt;
-&lt;p&gt;Working iteratively to create paper wireframes in the early stages and getting regular feedback from members of the team and potential clients. These evolved into interactive wireframes, which allowed the product and development team to understand the solution we were aiming to build. As the process evolved, I worked closely with the product owner to document each of the features so they can be developed as part of an agile team.&lt;/p&gt;
-&lt;h2&gt;Frontend development&lt;/h2&gt;
-&lt;p&gt;As well as designing the the product, I also developed the frontend. This involved building new components and revising others for the Virtual College Pattern Library. The components were handcoded in HTML and Sass with each one tested for accessibility, compatibility and performance. I coached the developement team to ensure best practice was used when implementing these in the final code.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin:24px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e3b82270620e32bc83481d9e40188887/166a3/audit-editor.png&quot;
+    href=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/166a3/audit-question.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 62.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAB2HAAAdhwGP5fFlAAACZUlEQVQoz2WSy08TURjF+98YiSS1LVIYXgUJtlWJGCESKRSpiQi6ACOIxNKmoI5YaqpQEDVK0GACYYOPBQl2YTToQoOIhmgi0uk82+lM59E29bsz0YCeObm735zzffcaVt9//Lz+Tff6xtedXvuysfn9hyCKggCHqKiqgiSvbXI/iaSiSIaxy69G+5aC/S+uX1y01R43YpWW8hpzeXVRZc2+A9iJU220JpZlaYZhWJZPJvk/MuTzeSWTgTMtSfVNzQWWkv1YlbG00lRWtddccuxkC0VRHMelQIKgVxC1Lgh+HX23+Hw5Gv2wsrzqrHcVFpeZymzAm8ttBZbShmYXxJIUjVhgNEwXgs94BnD/rH9w+oZv5kpfGDCwCcHVkNzY4pZlSZbljKZsNpvTPhgdwV29vZGH98P3IlOPH4wER6Gwzmuwtan1tKqqPKSmQRKcYFlR4C/QxVCEOe2ONufhdrvDfbCu+X8YYre2Y79ihO6tbSIWJ6E/gru6fSF8Dh+euY0/8w6O766NYGgIMxNxMk5ScdgewyR4HraLYM/57lDkDh4eG5sIe68F9OS/cKOrHRpCDoQTJEmQFJApUZR0uBg7aq/rcDo8jkMdtbUtxtKqnbUBzuVyMDaQcYomaZpiWDBMjuCensDU+EI49GTy7vxwYMKIVfybnMtJihojSS7Js0meg2RBgJ0h2N15bvTWJI5PBYPTQ95QScUReGS7tp1Oq6lUPqMiK3JWSmu4ds/Qs+fCzZGrj/wD07hvtvOst9CK3gnAe8zWVrfn5RYxFH3T/3T+0txCw9JK/9tPYiLBJmB2/jeNCvgU/hr/1AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 84.44444444444446%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADEklEQVQ4y5WUy44bVRCG+4F4Ada8AA/AG2QNmyy4KESIBQixYAMSKAuiIBGGZIZkkoyHTOJx2+6L3e1Lu2dCFI/v17a72/Z47I86PXiSRSyRlj6d45bPf6q6/iqtUCxi2TalUglX8DyPSqWScOL71Go1PEGt5XKZdDpNJpNJ/ufLO9txyD15wvHhIQ93/0BzXZdsNkuj0SCOZ4yDiRAQTKZMplMWi3PW6zWr1SpZN4/6vaHb7+OITrFYQFO3plIpqtUqw9GIwWBIfzBgJPteX9bxWC6KiaIoIQzDq71iNpvRbrWTDCuVKpplmRKhji/p9eSmTrdLp9dLGIhwoKLdwlgum0oW9Xodw8hjmSba0bM0u389xlapv8rxuGFyt60wOB01iST1cTDeKqgiPjl9wYP9A1KHR2jf/rTPh9ducWsnS2/YodnvMownDMKAMJaUJN14C1EUs1rOeXhU5qOPb/PZd3to+wfH/Hr3bwoFn3A6IRgHRNOQUCKbqsJMJlsJpIBxFFL2/uG3e8/Ye3SMVnKKYosSVr1KvTmiPxwxn8//N4vFgk67xUlNrFZ20Wp2iS+MO3xe22EdrQnkm7zr02w2JcMitvhZM22L9zNfcsO/B2KzSfRaUPluG6vEm+srQSVmGIZU2dJ5L/MpN8q/M3h1RiuxTJeu2Ed9J2WLN1FVVczikPksYjGPaYmg65YwlW2U8gf613zl34fwnCiUyk6j5PCVmSXqBBHaCDc7Y16eDTlrB9JlLVTHJRHWCiV+sHa5+XKPGRf0llO6FyGL1TJpq4vlBefRnOXsnLkU4LItJ/y44/PJ9yY3fy7jnTaSgiSClnxDv+KxU3jKdfs21+xf+KbwJ3bV5cSroTsmd+wD9pw0pmUlA8LfDA2v9t/qJe+vUnZLLlbWwjZMDJkkRcPGkaqpNDJGll3jKY+M5+i6Tj4vLSbC6rBq29dY5HK5S0GlbpgpzGyGtP6cYyOHbV2ONCNvYOp5jGw+OaAm0wb9jf0GTd2kInGKefGSlN4pYMvqypxz1KwTEV2Gx9sOv41/AWbByd79tYJXAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Audit Editor&quot;
-        title=&quot;Audit Editor&quot;
-        src=&quot;/static/e3b82270620e32bc83481d9e40188887/37523/audit-editor.png&quot;
-        srcset=&quot;/static/e3b82270620e32bc83481d9e40188887/e9ff0/audit-editor.png 180w,
-/static/e3b82270620e32bc83481d9e40188887/f21e7/audit-editor.png 360w,
-/static/e3b82270620e32bc83481d9e40188887/37523/audit-editor.png 720w,
-/static/e3b82270620e32bc83481d9e40188887/302a4/audit-editor.png 1080w,
-/static/e3b82270620e32bc83481d9e40188887/07a9c/audit-editor.png 1440w,
-/static/e3b82270620e32bc83481d9e40188887/166a3/audit-editor.png 1980w&quot;
+        alt=&quot;Audit Question&quot;
+        title=&quot;Audit Question&quot;
+        src=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/37523/audit-question.png&quot;
+        srcset=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/e9ff0/audit-question.png 180w,
+/static/99a3120978ca5d205d803ea81bd6eaa6/f21e7/audit-question.png 360w,
+/static/99a3120978ca5d205d803ea81bd6eaa6/37523/audit-question.png 720w,
+/static/99a3120978ca5d205d803ea81bd6eaa6/302a4/audit-question.png 1080w,
+/static/99a3120978ca5d205d803ea81bd6eaa6/07a9c/audit-question.png 1440w,
+/static/99a3120978ca5d205d803ea81bd6eaa6/166a3/audit-question.png 1980w&quot;
         sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Conceptualization&lt;/h2&gt;
+&lt;p&gt;From the research, user personas, journey maps and workflows were produced as part of an agile team. Facilitating multiple workshops with developers, product owners and stakeholders to gain a broad perspective about what was possible and identify where value could be most gained.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin:24px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)&quot;
@@ -273,35 +273,39 @@ My role also included usability testing new and existing features to get valuabl
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Wireframing and prototyping&lt;/h2&gt;
+&lt;p&gt;Working iteratively to create paper wireframes in the early stages and getting regular feedback from members of the team and potential clients. These evolved into interactive wireframes, which allowed the product and development team to understand the solution we were aiming to build. As the process evolved, I worked closely with the product owner to document each of the features so they can be developed as part of an agile team.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; margin:24px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/166a3/audit-question.png&quot;
+    href=&quot;/static/e3b82270620e32bc83481d9e40188887/166a3/audit-editor.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 84.44444444444446%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAAAsSAAALEgHS3X78AAADEklEQVQ4y5WUy44bVRCG+4F4Ada8AA/AG2QNmyy4KESIBQixYAMSKAuiIBGGZIZkkoyHTOJx2+6L3e1Lu2dCFI/v17a72/Z47I86PXiSRSyRlj6d45bPf6q6/iqtUCxi2TalUglX8DyPSqWScOL71Go1PEGt5XKZdDpNJpNJ/ufLO9txyD15wvHhIQ93/0BzXZdsNkuj0SCOZ4yDiRAQTKZMplMWi3PW6zWr1SpZN4/6vaHb7+OITrFYQFO3plIpqtUqw9GIwWBIfzBgJPteX9bxWC6KiaIoIQzDq71iNpvRbrWTDCuVKpplmRKhji/p9eSmTrdLp9dLGIhwoKLdwlgum0oW9Xodw8hjmSba0bM0u389xlapv8rxuGFyt60wOB01iST1cTDeKqgiPjl9wYP9A1KHR2jf/rTPh9ducWsnS2/YodnvMownDMKAMJaUJN14C1EUs1rOeXhU5qOPb/PZd3to+wfH/Hr3bwoFn3A6IRgHRNOQUCKbqsJMJlsJpIBxFFL2/uG3e8/Ye3SMVnKKYosSVr1KvTmiPxwxn8//N4vFgk67xUlNrFZ20Wp2iS+MO3xe22EdrQnkm7zr02w2JcMitvhZM22L9zNfcsO/B2KzSfRaUPluG6vEm+srQSVmGIZU2dJ5L/MpN8q/M3h1RiuxTJeu2Ed9J2WLN1FVVczikPksYjGPaYmg65YwlW2U8gf613zl34fwnCiUyk6j5PCVmSXqBBHaCDc7Y16eDTlrB9JlLVTHJRHWCiV+sHa5+XKPGRf0llO6FyGL1TJpq4vlBefRnOXsnLkU4LItJ/y44/PJ9yY3fy7jnTaSgiSClnxDv+KxU3jKdfs21+xf+KbwJ3bV5cSroTsmd+wD9pw0pmUlA8LfDA2v9t/qJe+vUnZLLlbWwjZMDJkkRcPGkaqpNDJGll3jKY+M5+i6Tj4vLSbC6rBq29dY5HK5S0GlbpgpzGyGtP6cYyOHbV2ONCNvYOp5jGw+OaAm0wb9jf0GTd2kInGKefGSlN4pYMvqypxz1KwTEV2Gx9sOv41/AWbByd79tYJXAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 62.77777777777778%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAB2HAAAdhwGP5fFlAAACZUlEQVQoz2WSy08TURjF+98YiSS1LVIYXgUJtlWJGCESKRSpiQi6ACOIxNKmoI5YaqpQEDVK0GACYYOPBQl2YTToQoOIhmgi0uk82+lM59E29bsz0YCeObm735zzffcaVt9//Lz+Tff6xtedXvuysfn9hyCKggCHqKiqgiSvbXI/iaSiSIaxy69G+5aC/S+uX1y01R43YpWW8hpzeXVRZc2+A9iJU220JpZlaYZhWJZPJvk/MuTzeSWTgTMtSfVNzQWWkv1YlbG00lRWtddccuxkC0VRHMelQIKgVxC1Lgh+HX23+Hw5Gv2wsrzqrHcVFpeZymzAm8ttBZbShmYXxJIUjVhgNEwXgs94BnD/rH9w+oZv5kpfGDCwCcHVkNzY4pZlSZbljKZsNpvTPhgdwV29vZGH98P3IlOPH4wER6Gwzmuwtan1tKqqPKSmQRKcYFlR4C/QxVCEOe2ONufhdrvDfbCu+X8YYre2Y79ihO6tbSIWJ6E/gru6fSF8Dh+euY0/8w6O766NYGgIMxNxMk5ScdgewyR4HraLYM/57lDkDh4eG5sIe68F9OS/cKOrHRpCDoQTJEmQFJApUZR0uBg7aq/rcDo8jkMdtbUtxtKqnbUBzuVyMDaQcYomaZpiWDBMjuCensDU+EI49GTy7vxwYMKIVfybnMtJihojSS7Js0meg2RBgJ0h2N15bvTWJI5PBYPTQ95QScUReGS7tp1Oq6lUPqMiK3JWSmu4ds/Qs+fCzZGrj/wD07hvtvOst9CK3gnAe8zWVrfn5RYxFH3T/3T+0txCw9JK/9tPYiLBJmB2/jeNCvgU/hr/1AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Audit Question&quot;
-        title=&quot;Audit Question&quot;
-        src=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/37523/audit-question.png&quot;
-        srcset=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/e9ff0/audit-question.png 180w,
-/static/99a3120978ca5d205d803ea81bd6eaa6/f21e7/audit-question.png 360w,
-/static/99a3120978ca5d205d803ea81bd6eaa6/37523/audit-question.png 720w,
-/static/99a3120978ca5d205d803ea81bd6eaa6/302a4/audit-question.png 1080w,
-/static/99a3120978ca5d205d803ea81bd6eaa6/07a9c/audit-question.png 1440w,
-/static/99a3120978ca5d205d803ea81bd6eaa6/166a3/audit-question.png 1980w&quot;
+        alt=&quot;Audit Editor&quot;
+        title=&quot;Audit Editor&quot;
+        src=&quot;/static/e3b82270620e32bc83481d9e40188887/37523/audit-editor.png&quot;
+        srcset=&quot;/static/e3b82270620e32bc83481d9e40188887/e9ff0/audit-editor.png 180w,
+/static/e3b82270620e32bc83481d9e40188887/f21e7/audit-editor.png 360w,
+/static/e3b82270620e32bc83481d9e40188887/37523/audit-editor.png 720w,
+/static/e3b82270620e32bc83481d9e40188887/302a4/audit-editor.png 1080w,
+/static/e3b82270620e32bc83481d9e40188887/07a9c/audit-editor.png 1440w,
+/static/e3b82270620e32bc83481d9e40188887/166a3/audit-editor.png 1980w&quot;
         sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Frontend development&lt;/h2&gt;
+&lt;p&gt;As well as designing the product, I also developed the frontend. This involved building new components and revising others for the Virtual College Pattern Library. The components were hand coded in HTML and Sass with each one tested for accessibility, compatibility and performance. I coached the development team to ensure best practice was used when implementing these in the final code.&lt;/p&gt;</content:encoded></item></channel></rss>
