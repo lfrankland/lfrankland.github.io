@@ -19,9 +19,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <article>        
         <BlogHeader title={title} description={description}/>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <footer>
-          <Link to="/">Home</Link> 
-        </footer>
       </article>
     </Layout>
   )
