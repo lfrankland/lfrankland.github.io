@@ -6,6 +6,9 @@ thumbnail: "../../assets/vc-pattern-library.png"
 tags: Design, Frontend, Usability
 ---
 
+## About the Virtual College Pattern Library
+The VC Pattern Library was used to code multiple products and services across different sectors and audiences. 
+
 ## The challenge
 To ensure consistent front-end development to ensure rapid creation and testing of new products and features to a high standard.
 
@@ -15,11 +18,10 @@ The [Virtual College Frontend Pattern Library](https://virtualcollege.github.io/
 ![Pattern Library](./pattern-library.png)
 
 ### Design
-Breaking down the elements and where they could be standarised and reused. Building each one with a mobile-first methodology and testing them against the Web Content Accessibility Guidelines (WCAG) AA 2.0 standard.
+Breaking down the elements and where they could be standardised and reused. Building each one with a mobile-first methodology and testing them against the Web Content Accessibility Guidelines (WCAG) AA 2.0 standard.
 
 ### Creation
 Building a stand-alone pattern library to facilitate the adoption of the new patterns. Hand-built using HTML and Sass to ensure clean markup.
 
 ## Adoption
-The key success to the pattern library was getting developers on board. Throughout it's development I coahced team members in how best to use it, and using their comments to feedback into the 
-
+The key success to the pattern library was getting developers on board. Throughout its development I coached team members in how best to use it, and using their comments to feedback into the 
