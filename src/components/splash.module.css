@@ -1,11 +1,9 @@
 .splash {
 	align-items: center;	
-	background: var(--main-gradient);
-	color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 24px 16px;
+	padding: 32px 64px;
 	text-align: center;
 }
 
@@ -30,14 +28,26 @@
 	.splash {
 		align-items: flex-start;
 		justify-content: flex-end;			
-		padding: 96px 64px;
-		text-align:left;
+		padding: 64px;
 	}
+	
 	.title {
 		font-size: 4rem;
+		text-align:left;
+
 	}
+
 	.subTitle {
 		font-size: 1.4rem;
 		line-height: 1.2;
+		text-align:left;
+
 	}
+
+	.description {
+		max-width: 85ch;
+		text-align:left;
+
+	}
+
 }

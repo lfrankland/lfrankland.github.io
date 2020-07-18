@@ -1,12 +1,25 @@
 :root {
-	--main-bg-color: #eee;
-	--main-grey: #ccc;
-	--main-text-color: #111;
-	--main-gradient: 	linear-gradient(to left, #8e44ad, #ad2579);
+	--color-grey: hsl(305, 5%, 80%);
+	--color-dark:  hsl(305, 5%, 15%);
+	--color-light: hsl(305, 5%, 95%);
+	--main-gradient: 	linear-gradient(to left, hsl(282, 44%, 47%), hsl(323, 65%, 41%));
 	--max-width: 1200px;
-	--primary-color: #9d3493;
+	--color-primary: hsl(306, 50%, 41%);
+	--color-primary-hover: hsla(306, 50%, 41%, 0.2);
+
+	--font-stack:  -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@-webkit-keyframes AnimatedGradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimatedGradient {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
 @keyframes AnimatedGradient {
 	0%{background-position:0% 50%}
 	50%{background-position:100% 50%}
@@ -15,13 +28,15 @@
 
 html,
 body {
-	background-color: var(--main-bg-color);
-  color: var(--main-text-color);
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background: var(--main-gradient);
+	background-size: 400% 400%;
+  color: var(--color-light);
+  font-family: var(--font-stack);
   font-size: 18px;
   line-height: 1.5;
   padding: 0;
 	margin: 0;
+	animation: AnimatedGradient 24s ease infinite;
 }
 
 * {
@@ -35,7 +50,13 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 ul{
-	margin-bottom: 16px;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+}
+
+article {
+	background-color: var(--color-light);
+	color: var(--color-dark);
 }
 
 section {
@@ -61,13 +82,21 @@ section {
 }
 
 .project {
-	background-color: #f6f6f6;
-	color: var(--main-text-color);
+	backface-visibility: hidden;
+	background-color: var(--color-light);
+	color: var(--color-dark);
 	display: block;
 	margin-bottom: 24px;
 	width: 100%;
 	text-align:  center;
 	text-decoration: none;
+	transition: ease 200ms;
+	transform: translateZ(0);
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+.project:hover {
+	transform: scale(1.009,1.009);
 }
 
 .projectTitle {

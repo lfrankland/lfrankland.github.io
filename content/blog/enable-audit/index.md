@@ -1,7 +1,7 @@
 ---
 title: Enable Audit
 date: "2020-06-01"
-description: "Enable Audit snippet"
+description: "Enterprise mobile-first policy and procedure auditing platform to allow organisations to rapdily create, manage and report."
 thumbnail: "../../assets/enable-audit.png"
 tags: Design, Documentation, Build, Usability
 ---

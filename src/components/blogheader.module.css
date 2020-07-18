@@ -1,7 +1,9 @@
 .blogHeader {
-	background: black;
-	color: white;
-	padding: 96px 0;
+	background: var(--main-gradient);
+	background-size: 400% 400%;
+	color: var(--color-light);
+	padding: 64px 0;
+	animation: AnimatedGradient 24s ease infinite;
 }
 
 .blogHeaderContent {
@@ -16,4 +18,5 @@
 
 .blogHeaderContent h1 {
 	font-size: 3em;
+	margin-bottom: 0;
 }

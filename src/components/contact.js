@@ -7,7 +7,7 @@ const Contact = () => (
 		<form action="https://getform.io/f/120128c8-0857-4706-9509-059d5ff49793" method="POST">
 			<div className={styles.field}>
 				<label htmlFor="name">Name</label>
-				<input type="text" name="name" id="name" required/>
+				<input type="text" name="name" id="name" autofocus required/>
 			</div>
 			<div for="email" className={styles.field}>
 				<label htmlFor="email">Email address</label>
