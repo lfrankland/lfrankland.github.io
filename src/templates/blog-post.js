@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BlogHeader from '../components/blogheader'
+import styles from './blog-post.module.css'
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -16,7 +17,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article>        
+      <article className={styles.article}>        
         <BlogHeader title={title} description={description}/>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
       </article>
