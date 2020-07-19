@@ -1,14 +1,34 @@
 import React from 'react'
-import styles from './layout.module.css'
+import styled from 'styled-components'
 import Header from './header'
 import Footer from './footer'
 
+const LayoutContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+`
+
+const LayoutMain = styled.main`
+	flex: 1 auto;
+`
+
+const LayoutHeader = styled(Header)`
+	flex: none;
+`
+
+const LayoutFooter = styled(Footer)`
+	flex: none;
+`
+
 export default function Layout({ children }) {
-  return <div className={styles.container}>
-		<Header></Header>
-		<main className={styles.main}>
-		{children}
-		</main>
-		<Footer></Footer>
-	</div>
+  return (
+		<LayoutContainer>
+			<LayoutHeader />
+			<LayoutMain>
+			{children}
+			</LayoutMain>
+			<LayoutFooter />
+		</LayoutContainer>
+	)
 }

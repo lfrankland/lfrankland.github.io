@@ -4,7 +4,6 @@ date: "2020-07-13T00:00:00.284Z"
 description: "Faciliating the learning journey for over four million users reach with their personal and career development."
 featuredImage: salty_egg.jpg
 thumbnail: "../../assets/enable-lms.png"
-tags: Design, Frontend, Usability, Research
 ---
 
 ## About Enable LMS

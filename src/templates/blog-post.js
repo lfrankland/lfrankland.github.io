@@ -2,14 +2,13 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import BlogHeader from '../components/blogheader'
+import { BlogHeader } from '../components/blog-header'
 import styles from './blog-post.module.css'
 
-const BlogPostTemplate = ({ data, pageContext, location }) => {
+const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
-  const title = data.markdownRemark.frontmatter.title
-  const description = data.markdownRemark.frontmatter.description
+  const { description, title } = data.markdownRemark.frontmatter
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -42,7 +41,6 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
-        tags
       }
     }
   }

@@ -1,13 +1,29 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import styles from './nav.module.css'
+import styled from 'styled-components'
+
+const NavContainer = styled.nav`
+	display: flex;
+`
+
+const NavLink = styled(Link)`
+	border-radius: 2px;
+  color: var(--color-dark);
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: linear 100ms;
+
+	&:hover{
+		background:hsla(306, 50%, 41%, 0.2);	
+	}
+`
 
 const Nav = () => (
-	<nav className={styles.nav}>
-		<Link to="/" className={styles.link}>Home</Link>
-		<Link to="/#projects" className={styles.link}>Projects</Link>
-		<Link to="/contact" className={styles.link}>Contact</Link>
-	</nav>
+	<NavContainer>
+		<NavLink to="/">Home</NavLink>
+		<NavLink to="/#projects">Projects</NavLink>
+		<NavLink to="/contact">Contact</NavLink>
+	</NavContainer>
 )
 
 export default Nav

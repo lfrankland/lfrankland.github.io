@@ -2,7 +2,7 @@
 	--color-grey: hsl(305, 5%, 80%);
 	--color-dark:  hsl(305, 5%, 15%);
 	--color-light: hsl(305, 5%, 95%);
-	--main-gradient: 	linear-gradient(to left, hsl(282, 44%, 47%), hsl(323, 65%, 41%));
+	--main-gradient: 	linear-gradient(to left, hsl(282, 44%, 47%), hsl(150, 65%, 41%));
 	--max-width: 1200px;
 	--color-primary: hsl(306, 50%, 41%);
 	--color-primary-hover: hsla(306, 50%, 41%, 0.2);

@@ -1,8 +1,15 @@
 import React from 'react'
-import styles from './footer.module.css'
+import styled from 'styled-components'
 
-const Footer = () => (
-	<footer className={styles.footer}>&copy; Louis Frankland 2020</footer>
+const Footer = styled.footer`
+	background-color: var(--color-dark);
+	color: var(--color-grey);
+	padding: 64px 0;
+	text-align: center;
+`
+
+const LayoutFooter = () => (
+	<Footer>&copy; Louis Frankland 2020</Footer>
 )
 
-export default Footer
+export default LayoutFooter

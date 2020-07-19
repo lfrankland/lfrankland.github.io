@@ -3,7 +3,7 @@ title: Enable Audit
 date: "2020-06-01"
 description: "Enterprise mobile-first policy and procedure auditing platform to allow organisations to rapdily create, manage and report."
 thumbnail: "../../assets/enable-audit.png"
-tags: Design, Documentation, Build, Usability
+tags: ["Design", "Documentation", "Build"]
 ---
 
 ## About Enable Audit
