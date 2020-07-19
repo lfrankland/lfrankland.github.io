@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import Nav from './nav'
-import Logo from './logo'
-import styled, { keyframes } from 'styled-components'
+import React from "react"
+import { Link } from "gatsby"
+import Nav from "./nav"
+import Logo from "./logo"
+import styled, { keyframes } from "styled-components"
 
 const tada = keyframes`
 	from {
@@ -33,43 +33,46 @@ const tada = keyframes`
 `
 
 const Header = styled.header`
-	background-color: var(--color-light);
-	display: flex;
-	justify-content: space-between;
-	padding: 8px 32px;
-	width: 100%;
+  background-color: var(--color-light);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 32px;
+  width: 100%;
 
-	a {
+  h2 {
+    margin: 0;
+  }
 
-	}
+  &:hover {
+    svg {
+      animation: ${tada} 1s;
+      fill: var(--color-primary);
+      transition: 200ms;
+    }
 
-	h2 { margin: 0; }
-
-	svg:hover {
-		animation: ${tada} 1s;
-	}
+    h2 {
+      color: var(--color-primary);
+      transition: 200ms;
+    }
+  }
 `
 
 const StyledLink = styled(Link)`
-	align-items: center;
-	color: var(--color-dark);
-	display: flex;  
-	margin-bottom: 0;
-	text-decoration: none;
-
-	&:hover {
-		color: var(--color-primary);
-	}
+  align-items: center;
+  color: var(--color-dark);
+  display: flex;
+  margin-bottom: 0;
+  text-decoration: none;
 `
 
-export default function LayoutHeader(){
-	return (
-	<Header>
-			<StyledLink to="/">
-				<Logo />
-				<h2>Louis Frankland</h2>
-			</StyledLink>
-		<Nav />
-	</Header>
-	)
+export default function LayoutHeader() {
+  return (
+    <Header>
+      <StyledLink to="/">
+        <Logo />
+        <h2>Louis Frankland</h2>
+      </StyledLink>
+      <Nav />
+    </Header>
+  )
 }

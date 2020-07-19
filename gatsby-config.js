@@ -34,7 +34,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 720,
-              wrapperStyle:`margin:24px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)`,
+              wrapperStyle: `margin:24px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.2)`,
             },
           },
           {
@@ -71,7 +71,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
