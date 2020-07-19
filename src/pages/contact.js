@@ -3,7 +3,7 @@ import Layout from '..//components/layout'
 import SEO from "../components/seo"
 import Contact from '..//components/contact'
 
-const ContactPage = ({ data, location }) => {
+const ContactPage = ({ location }) => {
   
   return (
     <Layout location={location} >

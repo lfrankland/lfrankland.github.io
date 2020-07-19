@@ -1,25 +1,98 @@
 import React from 'react'
-import styles from './contact.module.css'
+import styled from 'styled-components'
+
+const Field = styled.div`
+	width: 100%;
+	margin-bottom: 16px;
+`
+
+const Label = styled.label`
+	display: block;
+	margin-bottom: 4px;
+	font-weight: 600;
+`
+
+const Input = styled.input`
+	background: var(--color-light);
+	border: 2px solid transparent;
+	border-radius: 2px;
+	height: 56px;	
+	font-size: 16px;
+	outline: none;
+	opacity: .6;
+	padding: 8px;
+	transition: 160ms;
+	width: 100%;	
+
+	&:focus, &:active {
+		opacity: 1;
+	}
+`
+
+const Textarea = styled.textarea`
+	background: var(--color-light);
+	border: 2px solid transparent;
+	border-radius: 2px;
+	font-family: var(--font-stack);
+	height: 128px;
+	outline: none;
+	opacity: .6;
+	padding: 8px;
+	resize: none;
+	width: 100%;
+	transition: 160ms;
+
+	&:focus, &:active {
+		opacity: 1;
+	}
+`
+
+const Button = styled.button`
+	background: transparent;
+	border: 3px solid var(--color-light);
+	border-radius: 2px;
+	color: var(--color-light);
+	cursor: pointer;	
+	font-size: 1rem;	
+	outline: none;
+	height: 56px;
+	width: 100%;
+	transition: 200ms;
+
+	&:hover, 
+	&:focus {
+		background: var(--color-light);
+		color: var(--color-primary);
+	}
+`
+
+const ContactWrapper = styled.main`
+	display: flex;
+	flex-direction: column;
+	max-width: 720px;
+	margin: auto;
+	padding: 32px 16px;	
+`
 
 const Contact = () => (
-	<main className={styles.contact}> 
+	<ContactWrapper>
 		<h1>Get in touch</h1>
 		<form action="https://getform.io/f/120128c8-0857-4706-9509-059d5ff49793" method="POST">
-			<div className={styles.field}>
-				<label htmlFor="name">Name</label>
-				<input type="text" name="name" id="name" autofocus required/>
-			</div>
-			<div for="email" className={styles.field}>
-				<label htmlFor="email">Email address</label>
-				<input type="email" name="email" id="email" required/>
-			</div>
-			<div className={styles.field}>
-				<label htmlFor="message">Message</label>
-				<textarea name="message" id="message" required></textarea>
-			</div>
-			<button className="button" type="submit">Send</button>
+			<Field>
+				<Label htmlFor="name">Name</Label>
+				<Input type="text" name="name" id="name" autoFocus required/>
+			</Field>
+			<Field>
+				<Label htmlFor="email">Email address</Label>
+				<Input type="email" name="email" id="email" required/>
+			</Field>
+			<Field>
+				<Label htmlFor="message">Message</Label>
+				<Textarea name="message" id="message" required></Textarea>
+			</Field>
+			<Button type="submit">Send</Button>
 		</form>
-	</main>
+	</ContactWrapper>
 )
 
 export default Contact

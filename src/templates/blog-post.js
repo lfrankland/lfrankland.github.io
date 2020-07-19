@@ -3,12 +3,23 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { BlogHeader } from '../components/blog-header'
-import styles from './blog-post.module.css'
+import styled from 'styled-components'
+
+const Article = styled.article`
+  background-color: var(--color-light);
+  color: var(--color-dark);
+`
+
+const Section =styled.section`
+  padding: 32px;
+  margin: auto;
+  max-width: 720px;
+`
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
-  const { description, title } = data.markdownRemark.frontmatter
+  const { description, title, tags } = data.markdownRemark.frontmatter
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -16,10 +27,11 @@ const BlogPostTemplate = ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article className={styles.article}>        
-        <BlogHeader title={title} description={description}/>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
-      </article>
+      <Article>        
+        <BlogHeader title={title} description={description} />
+        {tags.map((tag) => <p key={tag}>{tag}</p>)}
+        <Section dangerouslySetInnerHTML={{ __html: post.html }} />
+      </Article>
     </Layout>
   )
 }
@@ -41,6 +53,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
   }

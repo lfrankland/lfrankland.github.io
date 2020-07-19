@@ -3,6 +3,7 @@ title: VC Pattern Library
 date: "2020-06-20"
 description: About the VC Pattern Library
 thumbnail: "../../assets/vc-pattern-library.png"
+tags: ["Design", "Documentation", "Thing 2"]
 ---
 
 ## About the Virtual College Pattern Library
