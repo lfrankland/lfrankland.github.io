@@ -17,7 +17,10 @@ const Input = styled.input`
 	border: 2px solid transparent;
 	border-radius: 2px;
 	height: 56px;	
-	font-size: 16px;
+	font-family: var(--font-stack);
+
+	font-size: 18px;
+	font-weight: 400;
 	outline: none;
 	opacity: .6;
 	padding: 8px;
@@ -34,6 +37,8 @@ const Textarea = styled.textarea`
 	border: 2px solid transparent;
 	border-radius: 2px;
 	font-family: var(--font-stack);
+	font-size: 18px;
+	font-weight: 400;
 	height: 128px;
 	outline: none;
 	opacity: .6;
@@ -53,6 +58,7 @@ const Button = styled.button`
 	border-radius: 2px;
 	color: var(--color-light);
 	cursor: pointer;	
+	font-family: var(--font-stack);
 	font-size: 1rem;	
 	outline: none;
 	height: 56px;
@@ -80,7 +86,7 @@ const Contact = () => (
 		<form action="https://getform.io/f/120128c8-0857-4706-9509-059d5ff49793" method="POST">
 			<Field>
 				<Label htmlFor="name">Name</Label>
-				<Input type="text" name="name" id="name" autoFocus required/>
+				<Input type="text" name="name" id="name" required/>
 			</Field>
 			<Field>
 				<Label htmlFor="email">Email address</Label>
