@@ -16,7 +16,6 @@ const AnimatedGradient = keyframes`
 	}
 `
 
-
 const LayoutContainer = styled.div`
   animation: ${AnimatedGradient} 24s ease infinite;
   background: var(--main-gradient);
@@ -40,10 +39,12 @@ const LayoutFooter = styled(Footer)`
 
 export default function Layout({ children }) {
   return (
-    <LayoutContainer>
-      <LayoutHeader />
-      <LayoutMain>{children}</LayoutMain>
-      <LayoutFooter />
-    </LayoutContainer>
+    <>
+      <LayoutContainer>
+        <LayoutHeader />
+        <LayoutMain>{children}</LayoutMain>
+        <LayoutFooter />
+      </LayoutContainer>
+    </>
   )
 }
