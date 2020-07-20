@@ -1,15 +1,10 @@
 import React from "react"
 import styled from "styled-components"
 
-const SVG = styled.svg`
-  display: none;
-
-  @media (min-width: 616px) {
-    display: block;
+const SVG = styled.svg`  
     height: 32px;
     margin-right: 16px;
     width: 32px;
-  }
 `
 
 const Logo = () => (

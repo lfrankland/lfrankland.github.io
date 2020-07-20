@@ -35,12 +35,18 @@ const tada = keyframes`
 const Header = styled.header`
   background-color: var(--color-light);
   display: flex;
+  flex: none;
   justify-content: space-between;
   padding: 8px 32px;
   width: 100%;
 
   h2 {
+    display: none;
     margin: 0;
+  
+    @media (min-width: 616px) {
+      display: block;
+    }
   }
 
   a:hover {

@@ -4,11 +4,14 @@ import styled from "styled-components"
 
 const NavContainer = styled.nav`
   display: flex;
+  height: auto;
 `
 
 const NavLink = styled(Link)`
   border-radius: 4px;
   color: var(--color-dark);
+  display: block;
+  flex: none;
   padding: 8px 16px;
   text-decoration: none;
   transition: linear 100ms;

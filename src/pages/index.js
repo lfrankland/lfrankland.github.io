@@ -27,7 +27,7 @@ const Project = styled(Link)`
   background-color: var(--color-light);
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   color: var(--color-dark);
-  margin-bottom: 24px;  
+  margin-bottom: 32px;
   text-align: center;
   text-decoration: none;
   transition: ease 200ms;
@@ -53,13 +53,42 @@ const ProjectImage = styled(Img)`
 `
 
 const ProjectDetails = styled.div`
+  display: flex;
+  flex-direction: column;
   padding: 24px;
+  text-align: left;
 
   @media (min-width: 800px) {
     padding: 16px;
-    text-align: left;
-    width: 50%;    
+    width: 50%;
   }
+`
+const TagList = styled.div`
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: -4px -4px 16px -4px;
+  max-width: 100%;
+`
+
+const Tag = styled.div`
+  background: var(--color-grey);
+  border-radius: 2px;
+  color: var(--color-dark);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 4px;
+  padding: 2px 6px;
+  mix-blend-mode: darken;
+`
+
+const Button = styled.div`
+  background: var(--color-dark);
+  border-radius: 4px;
+  color: var(--color-light);  
+  flex: none;
+  margin-top: auto;
+  padding: 8px 16px;
+  width: 140px;
 `
 
 const BlogIndex = ({ data, location }) => {
@@ -72,13 +101,15 @@ const BlogIndex = ({ data, location }) => {
       <Splash />
       <Skills />
       <Tools />
-      <Container>
-        <ProjectsWrapper id="projects">
-          <Title>Projects</Title>
+      <ProjectsWrapper id="projects">
+        <Title>Projects</Title>
+        <Container>
           <ProjectList>
             {posts.map(({ node }) => {
               const title = node.frontmatter.title || node.fields.slug
               const description = node.frontmatter.description
+              const tags = node.frontmatter.tags
+
               return (
                 <Project
                   key={node.fields.slug}
@@ -90,13 +121,19 @@ const BlogIndex = ({ data, location }) => {
                   <ProjectDetails>
                     <h3>{title}</h3>
                     <p>{description}</p>
+                    <TagList>
+                      {tags.map(tag => (
+                        <Tag key={tag}>{tag}</Tag>
+                      ))}
+                    </TagList>
+                    <Button>Read more&hellip;</Button>
                   </ProjectDetails>
                 </Project>
               )
             })}
           </ProjectList>
-        </ProjectsWrapper>
-      </Container>
+        </Container>
+      </ProjectsWrapper>
     </Layout>
   )
 }
@@ -121,6 +158,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            tags
             thumbnail {
               childImageSharp {
                 fluid(maxWidth: 800) {

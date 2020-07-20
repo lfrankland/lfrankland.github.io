@@ -16,7 +16,7 @@ const GlobalStyles = createGlobalStyle`
 	:root {
 		--color-grey: hsl(305, 5%, 80%);
 		--color-dark: hsl(305, 5%, 15%);
-		--color-light: hsl(305, 5%, 95%);
+		--color-light: hsl(305, 5%, 98%);
 
 		--main-gradient: linear-gradient(
 			to left,
@@ -57,7 +57,6 @@ const GlobalStyles = createGlobalStyle`
 		background: var(--color-dark);
 		color: var(--color-light);
 	}
-
 `
 
 export default GlobalStyles

@@ -23,12 +23,12 @@ const ToolList = styled.ul`
 
 const Tool = styled.li`
   align-items: center;
-  background-color: white;
+  background-color: var(--color-light);
   border-radius: 50%;
   display: flex;
   height: 96px;
   justify-content: center;
-  margin: 8px 32px;
+  margin: 8px 24px;
   padding: 16px;
   width: 96px;
 
@@ -52,6 +52,9 @@ const Tools = () => (
       </Tool>
       <Tool>
         <img src={"/logos/gatsby.svg"} alt="GatsbyJS" />
+      </Tool>
+      <Tool>
+        <img src={"/logos/react.svg"} alt="React" />
       </Tool>
       <Tool>
         <img src={"/logos/axure.svg"} alt="Axure RP" />
