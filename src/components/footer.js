@@ -1,5 +1,5 @@
-import React from "react"
-import styled from "styled-components"
+import React from 'react'
+import styled from 'styled-components'
 
 const Footer = styled.footer`
   background-color: var(--color-dark);
@@ -8,6 +8,8 @@ const Footer = styled.footer`
   text-align: center;
 `
 
-const LayoutFooter = () => <Footer>&copy; Louis Frankland 2020</Footer>
+const LayoutFooter = () => (
+  <Footer>&copy; Louis Frankland 2020</Footer>
+)
 
 export default LayoutFooter

@@ -1,6 +1,6 @@
-import React from "react"
-import { Link } from "gatsby"
-import styled from "styled-components"
+import React from 'react'
+import { Link } from 'gatsby'
+import styled from 'styled-components'
 
 const NavContainer = styled.nav`
   display: flex;
@@ -12,12 +12,15 @@ const NavLink = styled(Link)`
   color: var(--color-dark);
   display: block;
   flex: none;
+  font-weight: 500;
   padding: 8px 16px;
+  margin-right: 4px;
   text-decoration: none;
   transition: linear 100ms;
 
   &:hover {
-    background: hsla(306, 50%, 41%, 0.2);
+    background: var(--color-primary);
+    color: var(--color-light);
   }
 `
 

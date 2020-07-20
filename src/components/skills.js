@@ -1,15 +1,10 @@
-import React from "react"
-import Container from "./container"
-import styled from "styled-components"
+import React from 'react'
+import styled from 'styled-components'
+import { Container } from './container'
+import { Text } from './text'
 
 const Wrapper = styled.div`
-  padding: 32px 64px;
-`
-
-const Title = styled.h2`
-  color: var(--color-light);
-  margin-bottom: 24px;
-  text-align: center;
+  padding: 32px 0;
 `
 
 const List = styled.ul`
@@ -29,7 +24,7 @@ const List = styled.ul`
 
 const Skill = styled.li`
   background-color: var(--color-light);
-  border-radius: 2px;
+  border-radius: 12px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   color: var(--color-dark);
   margin-left: 0;
@@ -41,55 +36,63 @@ const Skill = styled.li`
 const Skills = () => (
   <Wrapper>
     <Container>
-      <Title>Skills</Title>
       <List>
         <Skill>
-          <h3>Front-end development</h3>
-          <p>
-            Over ten years experience in front-end web development. Keeping
-            up-to-date with the latest technologies, such as CSS Grid to create
-            working, accessible and maintainable front-end code.
-          </p>
+          <Text as="h3" size="heading4">
+            User-centered design
+          </Text>
+          <Text size="body2">
+            Working with others as part of an agile team or independently to
+            produce user-focused products from ideas, to wireframes to final
+            production ready code.
+          </Text>
         </Skill>
         <Skill>
-          <h3>Collaborative design</h3>
-          <p>
-            Working with others, be that other designers, developers,
-            stakeholders - or most importantly - end users, I get results which
-            were never thought possible.
-          </p>
+          <Text as="h3" size="heading4">
+            Accessibility
+          </Text>
+          <Text size="body2">
+            I believe that every user deserves a good experience, and champion
+            that this is the case for people who use assistive technologies. I
+            have a deep understanding of the W3C WCAG specification.
+          </Text>
         </Skill>
         <Skill>
-          <h3>Ideation</h3>
-          <p>
-            A good idea is the first step in any new project. I have years of
-            experience of rapid ideation to nurture ideas into delivered
-            products and services.
-          </p>
+          <Text as="h3" size="heading4">
+            HTML &amp; CSS
+          </Text>
+          <Text size="body2">
+            Strong understanding of modern semantic HTML &amp; CSS principles
+            and practices to ensure W3C valid code for all devices.
+          </Text>
         </Skill>
         <Skill>
-          <h3>Prototyping</h3>
-          <p>
-            Depending on the stage of development and your audience, lo-fi
-            sketches on whiteboards to high quality part-functional prototypes I
-            have produced have saved time and money in product development.
-          </p>
+          <Text as="h3" size="heading4">
+            JavaScript
+          </Text>
+          <Text size="body2">
+            Experience with GatsbyJS, Styled Components and React. Keen to
+            further expand my knowledge and skills and apply my UX expertise to
+            this area.
+          </Text>
         </Skill>
         <Skill>
-          <h3>User research</h3>
-          <p>
-            Using techniques such as surveys, usability testing and customer
-            interviews to understand those who use the product as best as
-            possible, to make the products as best as possible for them
-          </p>
+          <Text as="h3" size="heading4">
+            Methodologies
+          </Text>
+          <Text size="body2">
+            Introduced CSS methodologies across development projects and teams
+            for consistent and maintainable front-end code.
+          </Text>
         </Skill>
-        <Skill>
-          <h3>Usability testing</h3>
-          <p>
-            Carrying out usability testing and working with others to devise and
-            test scenarios to gain real insights into how people interact with a
-            service or application.{" "}
-          </p>
+        <Skill size="body2">
+          <Text as="h3" size="heading4">
+            Usability testing
+          </Text>
+          <Text size="body2">
+            Devising, carrying out, reviewing and analysing usability testing
+            sessions on core commercial user journeys.
+          </Text>
         </Skill>
       </List>
     </Container>

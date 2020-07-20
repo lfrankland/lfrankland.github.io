@@ -1,8 +1,9 @@
-import React from "react"
-import { Link } from "gatsby"
-import Nav from "./nav"
-import Logo from "./logo"
-import styled, { keyframes } from "styled-components"
+import React from 'react'
+import { Link, graphql, useStaticQuery } from 'gatsby'
+import Img from 'gatsby-image'
+import Nav from './nav'
+import styled, { keyframes } from 'styled-components'
+import { Container } from './container'
 
 const tada = keyframes`
 	from {
@@ -11,20 +12,20 @@ const tada = keyframes`
 
 	10%,
 	20% {
-		transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -3deg);
 	}
 
 	30%,
 	50%,
 	70%,
 	90% {
-		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+		transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, 3deg);
 	}
 
 	40%,
 	60%,
 	80% {
-		transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+		transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, -3deg);
 	}
 
 	to {
@@ -34,23 +35,21 @@ const tada = keyframes`
 
 const Header = styled.header`
   background-color: var(--color-light);
-  display: flex;
   flex: none;
-  justify-content: space-between;
-  padding: 8px 32px;
+  padding: 16px;
   width: 100%;
 
   h2 {
     display: none;
     margin: 0;
-  
+
     @media (min-width: 616px) {
       display: block;
     }
   }
 
   a:hover {
-    svg {
+    img {
       animation: ${tada} 1s;
       fill: var(--color-primary);
       transition: 200ms;
@@ -63,6 +62,11 @@ const Header = styled.header`
   }
 `
 
+const HeaderContainer = styled(Container)`
+  display: flex;
+  justify-content: space-between;
+`
+
 const StyledLink = styled(Link)`
   align-items: center;
   color: var(--color-dark);
@@ -70,15 +74,41 @@ const StyledLink = styled(Link)`
   margin-bottom: 0;
   text-decoration: none;
 `
+const ProfileImg = styled(Img)`
+  border-radius: 50%;
+  margin-right: 16px;
+  overflow: hidden;
+`
 
 export default function LayoutHeader() {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "profile-pic.jpg" }) {
+        childImageSharp {
+          fixed(width: 32, height: 32) {
+            base64
+            width
+            height
+            src
+            srcSet
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <Header>
-      <StyledLink to="/">
-        <Logo />
-        <h2>Louis Frankland</h2>
-      </StyledLink>
-      <Nav />
+      <HeaderContainer>
+        <StyledLink to="/">
+          <ProfileImg
+            fixed={data.file.childImageSharp.fixed}
+            alt="Profile Pic"
+          />
+          <h2>Louis Frankland</h2>
+        </StyledLink>
+        <Nav />
+      </HeaderContainer>
     </Header>
   )
 }

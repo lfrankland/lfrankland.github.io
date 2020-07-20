@@ -1,11 +1,11 @@
-import React from "react"
-import styled from "styled-components"
+import styled from 'styled-components'
 
-const Wrapper = styled.div`
+export const Container = styled.div`
   margin: auto;
-  max-width: var(--max-width);
-`
+  max-width: ${({ size }) => (size === 'small' ? '960px' : '1200px')};
+  padding: 0 16px;
 
-export default function Container({ children }) {
-  return <Wrapper>{children}</Wrapper>
-}
+  @media (min-width: 640px) {
+    padding: 0 24px;
+  }
+`
