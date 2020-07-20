@@ -9,6 +9,7 @@ const SplashWrapper = styled.div`
   justify-content: center;
   padding: 32px 64px;
   text-align: center;
+  text-shadow: 0 0 16px rgba(0,0,0,0.2);
 
   @media (min-width: 640px) {
     align-items: flex-start;

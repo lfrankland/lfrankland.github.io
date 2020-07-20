@@ -43,7 +43,7 @@ const Header = styled.header`
     margin: 0;
   }
 
-  &:hover {
+  a:hover {
     svg {
       animation: ${tada} 1s;
       fill: var(--color-primary);

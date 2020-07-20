@@ -1,25 +1,10 @@
 import React from "react"
-import styled, { keyframes } from "styled-components"
+import styled from "styled-components"
 import Header from "./header"
 import Footer from "./footer"
-
-
-const AnimatedGradient = keyframes`
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-`
+import GlobalStyle from './global-styles'
 
 const LayoutContainer = styled.div`
-  animation: ${AnimatedGradient} 24s ease infinite;
-  background: var(--main-gradient);
-  background-size: 400% 400%;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -40,6 +25,7 @@ const LayoutFooter = styled(Footer)`
 export default function Layout({ children }) {
   return (
     <>
+      <GlobalStyle />
       <LayoutContainer>
         <LayoutHeader />
         <LayoutMain>{children}</LayoutMain>

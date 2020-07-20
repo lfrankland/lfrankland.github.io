@@ -7,7 +7,7 @@ const NavContainer = styled.nav`
 `
 
 const NavLink = styled(Link)`
-  border-radius: 2px;
+  border-radius: 4px;
   color: var(--color-dark);
   padding: 8px 16px;
   text-decoration: none;
