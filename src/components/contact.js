@@ -62,6 +62,7 @@ const Button = styled.button`
   cursor: pointer;
   font-family: var(--font-stack);
   font-size: 1rem;
+  font-weight: 600;
   outline: none;
   height: 56px;
   width: 100%;
@@ -70,7 +71,8 @@ const Button = styled.button`
   &:hover,
   &:focus {
     background: var(--color-light);
-    color: var(--color-primary);
+    color: var(--color-dark);
+    mix-blend-mode: lighten;
   }
 `
 
