@@ -84,50 +84,36 @@ const Page = () => {
           The learning platform had the following features which I designed:
         </Text>
 
-        <ul>
+        <Text as="ul">
           <li>
-            <Text as="p">
-              <strong>Learning creation</strong> &ndash; Assessments,
-              evaluations, certificate and course editing
-            </Text>
+            <strong>Learning creation</strong> &ndash; Assessments, evaluations,
+            certificate and course editing
           </li>
           <li>
-            <Text as="p">
-              <strong>Learning management</strong> &ndash; Automated allocating
-              courses, categories, reporting
-            </Text>
+            <strong>Learning management</strong> &ndash; Automated allocating
+            courses, categories, reporting
           </li>
           <li>
-            <Text as="p">
-              <strong>Group and user management</strong> &ndash; User profiles,
-              facilitating allocating, resource management and discussions
-            </Text>
+            <strong>Group and user management</strong> &ndash; User profiles,
+            facilitating allocating, resource management and discussions
           </li>
           <li>
-            <Text as="p">
-              <strong>Job role management</strong> &ndash; Creating and managing
-              employee appraisals
-            </Text>
+            <strong>Job role management</strong> &ndash; Creating and managing
+            employee appraisals
           </li>
           <li>
-            <Text as="p">
-              <strong>Event management</strong> &ndash; Event creation,
-              inviting, management, registering and reporting
-            </Text>
+            <strong>Event management</strong> &ndash; Event creation, inviting,
+            management, registering and reporting
           </li>
           <li>
-            <Text as="p">
-              <strong>Internationalisation</strong> &ndash; Supporting multiple
-              langauages, including Arabic, right-to-left direction text
-            </Text>
+            <strong>Internationalisation</strong> &ndash; Supporting multiple
+            langauages, including Arabic, right-to-left direction text
           </li>
           <li>
-            <Text as="p">
-              <strong>System management</strong> &ndash; Customer feature
-              management, branding, registration, course licencing
-            </Text>
+            <strong>System management</strong> &ndash; Customer feature
+            management, branding, registration, course licencing
           </li>
-        </ul>
+        </Text>
 
         <ProjectImage
           image={dashboardScreenshot.childImageSharp.fluid}

@@ -38,6 +38,10 @@ const GlobalStyles = createGlobalStyle`
 		background: var(--color-dark);
 		color: var(--color-light);
 	}
+
+	ul {
+		padding-left: 20px;
+	}
 	
 `
 
