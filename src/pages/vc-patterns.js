@@ -50,22 +50,40 @@ const Page = () => {
         </Text>
 
         <Text>
-          To ensure consistent front-end development in the rapid creation and
-          testing of new products and features.
+          Working at Virtual College the product and development team were
+          running into issues of inflated CSS files, inconsistent application of
+          front-end code and trouble identifying and resolving issues quickly
+          and effectively.
+        </Text>
+        <Text>
+          Researching different best practices of how to resolve this, I settled
+          on creating a front-end pattern library.
         </Text>
 
         <Text as="h2" size="heading2">
-          The solution
+          Research
         </Text>
 
         <Text>
-          The{' '}
-          <a href="https://virtualcollege.github.io/vc-app-patterns/#/">
-            Virtual College Frontend Pattern Library
-          </a>{' '}
-          was used to rapidly build new features and standardise the development
-          process across multiple applications. The goal was to facilitate
-          consistency, reusability and reduce maintenance.
+          To help solve the common design and development problems, I first
+          investigated what solutions could and would work for the current
+          development team and how best to integrate into existing projects and
+          ensure that it would be reusable for future work. Reviewing some of
+          the more popular and seeing how they were put together from both a
+          design and development perspective.
+        </Text>
+
+        <Text as="h2" size="heading2">
+          Breaking down the components
+        </Text>
+        <Text>
+          Once I settled on creating the pattern library, the first task was to
+          break down the UI into separate components. This involved reviewing
+          the existing views and identifying the shared elements across
+          different applications and understanding all the use cases and states
+          they could be in. Starting with the most basic elements such as
+          buttons, inputs, typography, I defined, designed and documented each
+          in HTML and CSS.
         </Text>
 
         <ProjectImage
@@ -78,18 +96,17 @@ const Page = () => {
         </Text>
 
         <Text>
-          The VC Pattern Library is used for products across different sectors.
-          Each component was was built and tested to meet the{' '}
-          <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">
-            Web Content Accessibility Guidelines (WCAG) AA 2.1 standard
-          </a>
-          .
+          One of the key benefits of the pattern library was the ability to
+          decouple the front-end from back-end code. This allowed me to test
+          each component for accessibility and ensure it met the (Web Content
+          Accessibility Guidelines) WCAG 2.1 AA standards.
         </Text>
 
         <Text>
-          As well as meeting the standards, I also worked to ensure browser
-          compatibility by testing components and layouts across multiple
-          devices and browsers, identifying and resolving issues efficiently.
+          As well as meeting the accessibility standards, I also worked to
+          ensure browser compatibility by testing components and layouts across
+          multiple devices and browsers, identifying and resolving issues
+          efficiently.
         </Text>
 
         <Text as="h2" size="heading2">
@@ -97,16 +114,24 @@ const Page = () => {
         </Text>
 
         <Text>
-          Each component is made up of HTML and CSS. Using{' '}
-          <a href="http://getbem.com/">Block Element Modifier</a> name
-          convention to decouple the HTML and CSS. Implementing this provided a
-          flat, CSS structure which was more performant, no CSS conflicts and
-          ease of code maintenance.
+          As well as researching pattern libraries, I also looked into different
+          front-end methodologies. Experimenting with Atomic, OOCSS and SMACC, I
+          settled on using ( Block Element Modifier (BEM). This gave me a flat
+          CSS structure which was performant, stopped CSS conflicts and helped
+          with code readability.
+        </Text>
+
+        <Text as="h2" size="heading2">
+          Build
         </Text>
 
         <Text>
-          Starting with the core user interface elements, I added, amended and
-          improved the library, ensuring that quality standards were always met.
+          To help with the maintainability of the pattern library, I used Sass
+          to help manage consistent colours, sizes, breakpoints and more across
+          the patterns. As well as building the deliverable code which was
+          passed onto other developers, I also produced a documentation site,
+          which detailed each of the available components, explaining what they
+          are used for, code examples and the different modifiers available.{' '}
         </Text>
 
         <Text as="h2" size="heading2">
@@ -114,11 +139,11 @@ const Page = () => {
         </Text>
 
         <Text>
-          I facilitated the moving from the legacy front-end system to the
-          created, running workshops with fellow developers, helping them
-          understand the principles of the pattern library. As well as
-          documenting each of the components and the best practice for each, I
-          also worked directly on applications to ensure it's smooth deployment.
+          Once the pattern library was in a deliverable state, I facilitated the
+          move from the legacy front-end system. I ran workshops with other
+          developers, explaining the principles of the pattern library and how
+          to get the best out of it. I also worked directly on applications to
+          ensure the smooth deployment of new components.
         </Text>
       </Container>
     </Layout>
