@@ -39,26 +39,6 @@ const Skills = () => (
       <List>
         <Skill>
           <Text as="h3" size="heading4">
-            User-centered design
-          </Text>
-          <Text size="body2">
-            Working with others as part of an agile team or independently to
-            produce user-focused products from ideas, to wireframes to final
-            production ready code.
-          </Text>
-        </Skill>
-        <Skill>
-          <Text as="h3" size="heading4">
-            Accessibility
-          </Text>
-          <Text size="body2">
-            I believe that every user deserves a good experience, and champion
-            that this is the case for people who use assistive technologies. I
-            have a deep understanding of the W3C WCAG specification.
-          </Text>
-        </Skill>
-        <Skill>
-          <Text as="h3" size="heading4">
             HTML &amp; CSS
           </Text>
           <Text size="body2">
@@ -78,11 +58,31 @@ const Skills = () => (
         </Skill>
         <Skill>
           <Text as="h3" size="heading4">
+            Accessibility
+          </Text>
+          <Text size="body2">
+            I believe that every user deserves a good experience, and champion
+            that this is the case for people who use assistive technologies. I
+            have a deep understanding of the W3C WCAG specification.
+          </Text>
+        </Skill>
+        <Skill>
+          <Text as="h3" size="heading4">
             Methodologies
           </Text>
           <Text size="body2">
             Introduced CSS methodologies across development projects and teams
             for consistent and maintainable front-end code.
+          </Text>
+        </Skill>
+        <Skill>
+          <Text as="h3" size="heading4">
+            User-centered design
+          </Text>
+          <Text size="body2">
+            Working with others as part of an agile team or independently to
+            produce user-focused products from ideas, to wireframes to final
+            production ready code.
           </Text>
         </Skill>
         <Skill size="body2">

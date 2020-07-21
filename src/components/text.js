@@ -11,9 +11,14 @@ const colors = {
 
 const sizes = {
   display1: css`
-    font-size: 5rem;
+    font-size: 3.5rem;
     line-height: 1.167;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
+
+    @media (min-width: 768px) {
+      font-size: 5rem;
+      margin-bottom: 24px;
+    }
   `,
   display2: css`
     font-size: 1.8rem;
@@ -22,21 +27,25 @@ const sizes = {
   `,
   heading1: css`
     font-size: 2.5rem;
+    font-weight: 500;
     line-height: 1.2;
     margin-bottom: 16px;
   `,
   heading2: css`
     font-size: 2rem;
+    font-weight: 500;
     line-height: 1.2;
     margin-bottom: 8px;
   `,
   heading3: css`
     font-size: 1.75rem;
+    font-weight: 500;
     line-height: 1.2;
     margin-bottom: 8px;
   `,
   heading4: css`
     font-size: 1.2rem;
+    font-weight: 500;
     line-height: 1.2;
     margin-bottom: 8px;
   `,

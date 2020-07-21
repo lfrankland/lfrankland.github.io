@@ -57,7 +57,11 @@ const Page = () => {
         </Text>
         <Text>
           Researching different best practices of how to resolve this, I settled
-          on creating a front-end pattern library.
+          on creating a{' '}
+          <a href="https://virtualcollege.github.io/vc-app-patterns/#/">
+            frontend pattern library
+          </a>
+          .
         </Text>
 
         <Text as="h2" size="heading2">
@@ -98,8 +102,11 @@ const Page = () => {
         <Text>
           One of the key benefits of the pattern library was the ability to
           decouple the front-end from back-end code. This allowed me to test
-          each component for accessibility and ensure it met the (Web Content
-          Accessibility Guidelines) WCAG 2.1 AA standards.
+          each component for accessibility and ensure it met the{' '}
+          <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">
+            Web Content Accessibility Guidelines (WCAG) AA 2.1 standard
+          </a>
+          .
         </Text>
 
         <Text>
@@ -116,9 +123,10 @@ const Page = () => {
         <Text>
           As well as researching pattern libraries, I also looked into different
           front-end methodologies. Experimenting with Atomic, OOCSS and SMACC, I
-          settled on using ( Block Element Modifier (BEM). This gave me a flat
-          CSS structure which was performant, stopped CSS conflicts and helped
-          with code readability.
+          settled on using{' '}
+          <a href="http://getbem.com/">Block Element Modifier</a>. This gave me
+          a flat CSS structure which was performant, stopped CSS conflicts and
+          helped with code readability.
         </Text>
 
         <Text as="h2" size="heading2">
@@ -131,7 +139,7 @@ const Page = () => {
           the patterns. As well as building the deliverable code which was
           passed onto other developers, I also produced a documentation site,
           which detailed each of the available components, explaining what they
-          are used for, code examples and the different modifiers available.{' '}
+          are used for, code examples and the different modifiers available.
         </Text>
 
         <Text as="h2" size="heading2">
