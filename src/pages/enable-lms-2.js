@@ -8,10 +8,30 @@ import Layout from '../components/layout'
 import { Container } from '../components/container'
 
 const Page = () => {
-  const { editorScreenshot } = useStaticQuery(
+  const {
+    certificateScreenshot,
+    dashboardScreenshot,
+    groupScreenshot,
+    learningPlanScreenshot,
+  } = useStaticQuery(
     graphql`
       query {
-        editorScreenshot: file(relativePath: { eq: "audit-editor.png" }) {
+        certificateScreenshot: file(
+          relativePath: { eq: "certificate-editor.png" }
+        ) {
+          ...fluidImage
+        }
+        dashboardScreenshot: file(
+          relativePath: { eq: "enable-lms-dashboard.png" }
+        ) {
+          ...fluidImage
+        }
+        groupScreenshot: file(relativePath: { eq: "group-members.png" }) {
+          ...fluidImage
+        }
+        learningPlanScreenshot: file(
+          relativePath: { eq: "learning-plan.png" }
+        ) {
           ...fluidImage
         }
       }
@@ -110,8 +130,8 @@ const Page = () => {
         </ul>
 
         <ProjectImage
-          image={editorScreenshot.childImageSharp.fluid}
-          alt="My Image!"
+          image={dashboardScreenshot.childImageSharp.fluid}
+          alt="Screenshot of the Enable LMS Dashboard"
         />
 
         <Text as="h2" size="heading2">
@@ -145,6 +165,11 @@ const Page = () => {
           deliverable features which were designed and developed.
         </Text>
 
+        <ProjectImage
+          image={certificateScreenshot.childImageSharp.fluid}
+          alt="Screenshot of the Certificate Editor"
+        />
+
         <Text as="h2" size="heading2">
           Conceptualization
         </Text>
@@ -155,6 +180,11 @@ const Page = () => {
           workshops which then fedback into iterative workshops to define the
           solution we would deliever.
         </Text>
+
+        <ProjectImage
+          image={groupScreenshot.childImageSharp.fluid}
+          alt="Screenshot of the Group Management"
+        />
 
         <Text as="h2" size="heading2">
           Design
@@ -167,6 +197,11 @@ const Page = () => {
           organisation's brand was updated, ensuring it still met our
           accessibility targets.
         </Text>
+
+        <ProjectImage
+          image={learningPlanScreenshot.childImageSharp.fluid}
+          alt="Screenshot of the Automated Learning Plans"
+        />
 
         <Text as="h2" size="heading2">
           Frontend

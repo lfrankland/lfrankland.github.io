@@ -25,7 +25,7 @@ const Home = () => {
         enableAuditImage: file(relativePath: { eq: "th-enable-audit.png" }) {
           ...fluidImage
         }
-        vcPatternsImage: file(relativePath: { eq: "th-vc-patterns.jpg" }) {
+        vcPatternsImage: file(relativePath: { eq: "th-vc-patterns.png" }) {
           ...fluidImage
         }
       }
@@ -51,7 +51,7 @@ const Home = () => {
           <Container>
             <ProjectGroup>
               <Project
-                href="/vc-pattern-library"
+                href="/vc-patterns"
                 title="Virtual College Pattern Library"
                 image={vcPatternsImage.childImageSharp.fluid}
                 description="The VC Pattern Library was used to deliever front-end components across multiple products and services for different sectors and audiences."
@@ -67,7 +67,7 @@ const Home = () => {
               />
 
               <Project
-                href="/enable-lms"
+                href="/enable-lms-2"
                 title="Enable LMS"
                 image={enableLMSImage.childImageSharp.fluid}
                 description="Faciliating the learning journey for over four million users reach with their personal and career development."
@@ -82,7 +82,7 @@ const Home = () => {
               />
 
               <Project
-                href="/enable-audit"
+                href="/enable-audit-2"
                 title="Enable Audit"
                 image={enableAuditImage.childImageSharp.fluid}
                 description="Policy and procedure audit management platform to allow organisations to rapdily create, manage and report."

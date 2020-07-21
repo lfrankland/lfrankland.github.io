@@ -44,7 +44,8 @@ export const Wrapper = styled(Link)`
     }
 `
 const Image = styled(Img)`
-  border-radius: 12px 0 0 12px;
+  border-radius: 12px;
+  margin: 4px;
 
   @media (min-width: 800px) {
     width: 50%;
