@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Louis Frankland]]></title><description><![CDATA[Louis Frankland's User Experience Design Portfolio.]]></description><link>https://louisfrankland.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 20 Jul 2020 11:35:07 GMT</lastBuildDate><item><title><![CDATA[Enable LMS]]></title><description><![CDATA[About Enable LMS The Enable LMS is a powerful enterprise-level learning platform, designed to facilitate the eLearning delivery across many…]]></description><link>https://louisfrankland.com/enable-lms/</link><guid isPermaLink="false">https://louisfrankland.com/enable-lms/</guid><pubDate>Mon, 13 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;About Enable LMS&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Louis Frankland]]></title><description><![CDATA[Louis Frankland's User Experience Design Portfolio.]]></description><link>https://louisfrankland.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Jul 2020 06:31:36 GMT</lastBuildDate><item><title><![CDATA[Enable LMS]]></title><description><![CDATA[About Enable LMS The Enable LMS is a powerful enterprise-level learning platform, designed to facilitate the eLearning delivery across many…]]></description><link>https://louisfrankland.com/enable-lms/</link><guid isPermaLink="false">https://louisfrankland.com/enable-lms/</guid><pubDate>Mon, 13 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;About Enable LMS&lt;/h2&gt;
 &lt;p&gt;The Enable LMS is a powerful enterprise-level learning platform, designed to facilitate the eLearning delivery across many different sectors and audiences, from individual learners to multi-national organisations. My goal was to ensure it could meet all these needs effectively, giving learners, training professionals and Virtual College staff the tools and abilities to exceed their expectations.&lt;/p&gt;
 &lt;h3&gt;Key features&lt;/h3&gt;
 &lt;p&gt;The learning platform had the following features which I designed:&lt;/p&gt;
@@ -28,7 +28,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/d7ccba5ea6cceb5466a4f65aecec17f3/166a3/enable-lms-dashboard.png&quot;
+    href=&quot;/static/d7ccba5ea6cceb5466a4f65aecec17f3/cce16/enable-lms-dashboard.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -41,13 +41,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Enable LMS Dashboard&quot;
         title=&quot;Enable LMS Dashboard&quot;
-        src=&quot;/static/d7ccba5ea6cceb5466a4f65aecec17f3/37523/enable-lms-dashboard.png&quot;
-        srcset=&quot;/static/d7ccba5ea6cceb5466a4f65aecec17f3/e9ff0/enable-lms-dashboard.png 180w,
-/static/d7ccba5ea6cceb5466a4f65aecec17f3/f21e7/enable-lms-dashboard.png 360w,
-/static/d7ccba5ea6cceb5466a4f65aecec17f3/37523/enable-lms-dashboard.png 720w,
-/static/d7ccba5ea6cceb5466a4f65aecec17f3/302a4/enable-lms-dashboard.png 1080w,
-/static/d7ccba5ea6cceb5466a4f65aecec17f3/07a9c/enable-lms-dashboard.png 1440w,
-/static/d7ccba5ea6cceb5466a4f65aecec17f3/166a3/enable-lms-dashboard.png 1980w&quot;
+        src=&quot;/static/d7ccba5ea6cceb5466a4f65aecec17f3/242a6/enable-lms-dashboard.png&quot;
+        srcset=&quot;/static/d7ccba5ea6cceb5466a4f65aecec17f3/e9ea2/enable-lms-dashboard.png 180w,
+/static/d7ccba5ea6cceb5466a4f65aecec17f3/53918/enable-lms-dashboard.png 360w,
+/static/d7ccba5ea6cceb5466a4f65aecec17f3/242a6/enable-lms-dashboard.png 720w,
+/static/d7ccba5ea6cceb5466a4f65aecec17f3/b4ad3/enable-lms-dashboard.png 1080w,
+/static/d7ccba5ea6cceb5466a4f65aecec17f3/89066/enable-lms-dashboard.png 1440w,
+/static/d7ccba5ea6cceb5466a4f65aecec17f3/cce16/enable-lms-dashboard.png 1980w&quot;
         sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -62,7 +62,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/07a39d58ab08e59ba651767e7144a765/1307b/learning-plan.png&quot;
+    href=&quot;/static/07a39d58ab08e59ba651767e7144a765/49142/learning-plan.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -75,13 +75,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Learning Plan Editor&quot;
         title=&quot;Learning Plan Editor&quot;
-        src=&quot;/static/07a39d58ab08e59ba651767e7144a765/37523/learning-plan.png&quot;
-        srcset=&quot;/static/07a39d58ab08e59ba651767e7144a765/e9ff0/learning-plan.png 180w,
-/static/07a39d58ab08e59ba651767e7144a765/f21e7/learning-plan.png 360w,
-/static/07a39d58ab08e59ba651767e7144a765/37523/learning-plan.png 720w,
-/static/07a39d58ab08e59ba651767e7144a765/302a4/learning-plan.png 1080w,
-/static/07a39d58ab08e59ba651767e7144a765/07a9c/learning-plan.png 1440w,
-/static/07a39d58ab08e59ba651767e7144a765/1307b/learning-plan.png 3000w&quot;
+        src=&quot;/static/07a39d58ab08e59ba651767e7144a765/242a6/learning-plan.png&quot;
+        srcset=&quot;/static/07a39d58ab08e59ba651767e7144a765/e9ea2/learning-plan.png 180w,
+/static/07a39d58ab08e59ba651767e7144a765/53918/learning-plan.png 360w,
+/static/07a39d58ab08e59ba651767e7144a765/242a6/learning-plan.png 720w,
+/static/07a39d58ab08e59ba651767e7144a765/b4ad3/learning-plan.png 1080w,
+/static/07a39d58ab08e59ba651767e7144a765/89066/learning-plan.png 1440w,
+/static/07a39d58ab08e59ba651767e7144a765/49142/learning-plan.png 3000w&quot;
         sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -96,7 +96,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/30b9322e5710f9ae91375df759a74f3a/166a3/certificate-editor.png&quot;
+    href=&quot;/static/30b9322e5710f9ae91375df759a74f3a/cce16/certificate-editor.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -109,13 +109,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Certificate Editor&quot;
         title=&quot;Certificate Editor&quot;
-        src=&quot;/static/30b9322e5710f9ae91375df759a74f3a/37523/certificate-editor.png&quot;
-        srcset=&quot;/static/30b9322e5710f9ae91375df759a74f3a/e9ff0/certificate-editor.png 180w,
-/static/30b9322e5710f9ae91375df759a74f3a/f21e7/certificate-editor.png 360w,
-/static/30b9322e5710f9ae91375df759a74f3a/37523/certificate-editor.png 720w,
-/static/30b9322e5710f9ae91375df759a74f3a/302a4/certificate-editor.png 1080w,
-/static/30b9322e5710f9ae91375df759a74f3a/07a9c/certificate-editor.png 1440w,
-/static/30b9322e5710f9ae91375df759a74f3a/166a3/certificate-editor.png 1980w&quot;
+        src=&quot;/static/30b9322e5710f9ae91375df759a74f3a/242a6/certificate-editor.png&quot;
+        srcset=&quot;/static/30b9322e5710f9ae91375df759a74f3a/e9ea2/certificate-editor.png 180w,
+/static/30b9322e5710f9ae91375df759a74f3a/53918/certificate-editor.png 360w,
+/static/30b9322e5710f9ae91375df759a74f3a/242a6/certificate-editor.png 720w,
+/static/30b9322e5710f9ae91375df759a74f3a/b4ad3/certificate-editor.png 1080w,
+/static/30b9322e5710f9ae91375df759a74f3a/89066/certificate-editor.png 1440w,
+/static/30b9322e5710f9ae91375df759a74f3a/cce16/certificate-editor.png 1980w&quot;
         sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -129,7 +129,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/241ebbf35b4bf6342684084678d9eaed/166a3/group-members.png&quot;
+    href=&quot;/static/241ebbf35b4bf6342684084678d9eaed/cce16/group-members.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -142,13 +142,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Group Members&quot;
         title=&quot;Group Members&quot;
-        src=&quot;/static/241ebbf35b4bf6342684084678d9eaed/37523/group-members.png&quot;
-        srcset=&quot;/static/241ebbf35b4bf6342684084678d9eaed/e9ff0/group-members.png 180w,
-/static/241ebbf35b4bf6342684084678d9eaed/f21e7/group-members.png 360w,
-/static/241ebbf35b4bf6342684084678d9eaed/37523/group-members.png 720w,
-/static/241ebbf35b4bf6342684084678d9eaed/302a4/group-members.png 1080w,
-/static/241ebbf35b4bf6342684084678d9eaed/07a9c/group-members.png 1440w,
-/static/241ebbf35b4bf6342684084678d9eaed/166a3/group-members.png 1980w&quot;
+        src=&quot;/static/241ebbf35b4bf6342684084678d9eaed/242a6/group-members.png&quot;
+        srcset=&quot;/static/241ebbf35b4bf6342684084678d9eaed/e9ea2/group-members.png 180w,
+/static/241ebbf35b4bf6342684084678d9eaed/53918/group-members.png 360w,
+/static/241ebbf35b4bf6342684084678d9eaed/242a6/group-members.png 720w,
+/static/241ebbf35b4bf6342684084678d9eaed/b4ad3/group-members.png 1080w,
+/static/241ebbf35b4bf6342684084678d9eaed/89066/group-members.png 1440w,
+/static/241ebbf35b4bf6342684084678d9eaed/cce16/group-members.png 1980w&quot;
         sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -164,7 +164,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/a064b5507c0334630f67a5eebf3f664b/82e86/pattern-library.png&quot;
+    href=&quot;/static/a064b5507c0334630f67a5eebf3f664b/56e71/pattern-library.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -177,13 +177,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Pattern Library&quot;
         title=&quot;Pattern Library&quot;
-        src=&quot;/static/a064b5507c0334630f67a5eebf3f664b/37523/pattern-library.png&quot;
-        srcset=&quot;/static/a064b5507c0334630f67a5eebf3f664b/e9ff0/pattern-library.png 180w,
-/static/a064b5507c0334630f67a5eebf3f664b/f21e7/pattern-library.png 360w,
-/static/a064b5507c0334630f67a5eebf3f664b/37523/pattern-library.png 720w,
-/static/a064b5507c0334630f67a5eebf3f664b/302a4/pattern-library.png 1080w,
-/static/a064b5507c0334630f67a5eebf3f664b/07a9c/pattern-library.png 1440w,
-/static/a064b5507c0334630f67a5eebf3f664b/82e86/pattern-library.png 1978w&quot;
+        src=&quot;/static/a064b5507c0334630f67a5eebf3f664b/242a6/pattern-library.png&quot;
+        srcset=&quot;/static/a064b5507c0334630f67a5eebf3f664b/e9ea2/pattern-library.png 180w,
+/static/a064b5507c0334630f67a5eebf3f664b/53918/pattern-library.png 360w,
+/static/a064b5507c0334630f67a5eebf3f664b/242a6/pattern-library.png 720w,
+/static/a064b5507c0334630f67a5eebf3f664b/b4ad3/pattern-library.png 1080w,
+/static/a064b5507c0334630f67a5eebf3f664b/89066/pattern-library.png 1440w,
+/static/a064b5507c0334630f67a5eebf3f664b/56e71/pattern-library.png 1978w&quot;
         sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -211,7 +211,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/166a3/audit-question.png&quot;
+    href=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/cce16/audit-question.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -224,13 +224,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Audit Question&quot;
         title=&quot;Audit Question&quot;
-        src=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/37523/audit-question.png&quot;
-        srcset=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/e9ff0/audit-question.png 180w,
-/static/99a3120978ca5d205d803ea81bd6eaa6/f21e7/audit-question.png 360w,
-/static/99a3120978ca5d205d803ea81bd6eaa6/37523/audit-question.png 720w,
-/static/99a3120978ca5d205d803ea81bd6eaa6/302a4/audit-question.png 1080w,
-/static/99a3120978ca5d205d803ea81bd6eaa6/07a9c/audit-question.png 1440w,
-/static/99a3120978ca5d205d803ea81bd6eaa6/166a3/audit-question.png 1980w&quot;
+        src=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/242a6/audit-question.png&quot;
+        srcset=&quot;/static/99a3120978ca5d205d803ea81bd6eaa6/e9ea2/audit-question.png 180w,
+/static/99a3120978ca5d205d803ea81bd6eaa6/53918/audit-question.png 360w,
+/static/99a3120978ca5d205d803ea81bd6eaa6/242a6/audit-question.png 720w,
+/static/99a3120978ca5d205d803ea81bd6eaa6/b4ad3/audit-question.png 1080w,
+/static/99a3120978ca5d205d803ea81bd6eaa6/89066/audit-question.png 1440w,
+/static/99a3120978ca5d205d803ea81bd6eaa6/cce16/audit-question.png 1980w&quot;
         sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -245,7 +245,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/08f358df657973bfd3e602af4cee52f8/166a3/audit-overview.png&quot;
+    href=&quot;/static/08f358df657973bfd3e602af4cee52f8/cce16/audit-overview.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -258,13 +258,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Audit Overview&quot;
         title=&quot;Audit Overview&quot;
-        src=&quot;/static/08f358df657973bfd3e602af4cee52f8/37523/audit-overview.png&quot;
-        srcset=&quot;/static/08f358df657973bfd3e602af4cee52f8/e9ff0/audit-overview.png 180w,
-/static/08f358df657973bfd3e602af4cee52f8/f21e7/audit-overview.png 360w,
-/static/08f358df657973bfd3e602af4cee52f8/37523/audit-overview.png 720w,
-/static/08f358df657973bfd3e602af4cee52f8/302a4/audit-overview.png 1080w,
-/static/08f358df657973bfd3e602af4cee52f8/07a9c/audit-overview.png 1440w,
-/static/08f358df657973bfd3e602af4cee52f8/166a3/audit-overview.png 1980w&quot;
+        src=&quot;/static/08f358df657973bfd3e602af4cee52f8/242a6/audit-overview.png&quot;
+        srcset=&quot;/static/08f358df657973bfd3e602af4cee52f8/e9ea2/audit-overview.png 180w,
+/static/08f358df657973bfd3e602af4cee52f8/53918/audit-overview.png 360w,
+/static/08f358df657973bfd3e602af4cee52f8/242a6/audit-overview.png 720w,
+/static/08f358df657973bfd3e602af4cee52f8/b4ad3/audit-overview.png 1080w,
+/static/08f358df657973bfd3e602af4cee52f8/89066/audit-overview.png 1440w,
+/static/08f358df657973bfd3e602af4cee52f8/cce16/audit-overview.png 1980w&quot;
         sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -279,7 +279,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e3b82270620e32bc83481d9e40188887/166a3/audit-editor.png&quot;
+    href=&quot;/static/e3b82270620e32bc83481d9e40188887/cce16/audit-editor.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -292,13 +292,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Audit Editor&quot;
         title=&quot;Audit Editor&quot;
-        src=&quot;/static/e3b82270620e32bc83481d9e40188887/37523/audit-editor.png&quot;
-        srcset=&quot;/static/e3b82270620e32bc83481d9e40188887/e9ff0/audit-editor.png 180w,
-/static/e3b82270620e32bc83481d9e40188887/f21e7/audit-editor.png 360w,
-/static/e3b82270620e32bc83481d9e40188887/37523/audit-editor.png 720w,
-/static/e3b82270620e32bc83481d9e40188887/302a4/audit-editor.png 1080w,
-/static/e3b82270620e32bc83481d9e40188887/07a9c/audit-editor.png 1440w,
-/static/e3b82270620e32bc83481d9e40188887/166a3/audit-editor.png 1980w&quot;
+        src=&quot;/static/e3b82270620e32bc83481d9e40188887/242a6/audit-editor.png&quot;
+        srcset=&quot;/static/e3b82270620e32bc83481d9e40188887/e9ea2/audit-editor.png 180w,
+/static/e3b82270620e32bc83481d9e40188887/53918/audit-editor.png 360w,
+/static/e3b82270620e32bc83481d9e40188887/242a6/audit-editor.png 720w,
+/static/e3b82270620e32bc83481d9e40188887/b4ad3/audit-editor.png 1080w,
+/static/e3b82270620e32bc83481d9e40188887/89066/audit-editor.png 1440w,
+/static/e3b82270620e32bc83481d9e40188887/cce16/audit-editor.png 1980w&quot;
         sizes=&quot;(max-width: 720px) 100vw, 720px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
