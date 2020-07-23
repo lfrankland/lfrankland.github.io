@@ -1,13 +1,13 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import { Text } from '../components/text'
-import { TagGroup, Tag } from '../components/tags'
+import { Container } from '../components/container'
+import { Layout } from '../components/layout'
 import { ProjectHeader } from '../components/project-header'
 import { ProjectImage } from '../components/project-image'
-import Layout from '../components/layout'
-import { Container } from '../components/container'
+import { TagGroup, Tag } from '../components/tags'
+import { Text } from '../components/text'
 
-const Page = () => {
+export default function EnableLmsPage() {
   const {
     certificateScreenshot,
     dashboardScreenshot,
@@ -116,7 +116,7 @@ const Page = () => {
         </Text>
 
         <ProjectImage
-          image={dashboardScreenshot.childImageSharp.fluid}
+          fluid={dashboardScreenshot.childImageSharp.fluid}
           alt="Screenshot of the Enable LMS Dashboard"
         />
 
@@ -152,7 +152,7 @@ const Page = () => {
         </Text>
 
         <ProjectImage
-          image={certificateScreenshot.childImageSharp.fluid}
+          fluid={certificateScreenshot.childImageSharp.fluid}
           alt="Screenshot of the Certificate Editor"
         />
 
@@ -168,7 +168,7 @@ const Page = () => {
         </Text>
 
         <ProjectImage
-          image={groupScreenshot.childImageSharp.fluid}
+          fluid={groupScreenshot.childImageSharp.fluid}
           alt="Screenshot of the Group Management"
         />
 
@@ -185,7 +185,7 @@ const Page = () => {
         </Text>
 
         <ProjectImage
-          image={learningPlanScreenshot.childImageSharp.fluid}
+          fluid={learningPlanScreenshot.childImageSharp.fluid}
           alt="Screenshot of the Automated Learning Plans"
         />
 
@@ -203,5 +203,3 @@ const Page = () => {
     </Layout>
   )
 }
-
-export default Page
