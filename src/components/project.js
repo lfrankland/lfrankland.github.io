@@ -1,48 +1,48 @@
 import React from 'react'
-import { Link } from 'gatsby'
-import Img from 'gatsby-image'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
+import { Link } from 'gatsby'
 import { Text } from './text'
 import { TagGroup, Tag } from './tags'
 
 export const Wrapper = styled(Link)`
-    backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  color: var(--color-dark);
+  margin-bottom: 32px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translateZ(0);
+  width: 100%;
+  z-index: 1;
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  &:after {
+    content: '';
+    background-color: var(--color-light);
     border-radius: 12px;
-    color: var(--color-dark);
-    margin-bottom: 32px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    transform: translateZ(0);
-    width: 100%;
-    -webkit-font-smoothing: subpixel-antialiased;
-    z-index: 1;
+    bottom: 0;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition-property: transform, box-shadow;
+    transition: ease 200ms;
+    z-index: -1;
+  }
 
-    &:after{
-        content: '';
-        background-color: var(--color-light);
-        border-radius: 12px;
-        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-        transition-property: transform, box-shadow;
-        transition: ease 200ms;
-    }
+  &:hover:after {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+    transform: scale3d(1.007, 1.007, 1.007);
+  }
 
-    &:hover:after {
-        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
-        transform: scale3d(1.007, 1.007, 1.007);
-    }
-
-    @media (min-width: 800px) {
-            display: flex;
-        }
-    }
+  @media (min-width: 800px) {
+    display: flex;
+  }
 `
+
 const Image = styled(Img)`
   border-radius: 12px;
   margin: 4px;

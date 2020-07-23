@@ -1,36 +1,49 @@
-import React from "react"
-import styled from "styled-components"
-import Header from "./header"
-import Footer from "./footer"
-import GlobalStyle from './global-styles'
+import React from 'react'
+import styled from 'styled-components'
+import { Container } from './container'
+import { GlobalStyles } from './global-styles'
+import { Logo } from './logo'
+import { Nav } from './nav'
 
-const LayoutContainer = styled.div`
+const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
 `
 
-const LayoutMain = styled.main`
+const Header = styled.header`
+  background-color: var(--color-light);
+  flex: none;
+  padding: 16px;
+  width: 100%;
+`
+
+const Body = styled.main`
   flex: 1 auto;
 `
 
-const LayoutHeader = styled(Header)`
+const Footer = styled.footer`
+  background-color: var(--color-dark);
+  color: var(--color-grey);
   flex: none;
+  padding: 64px 0;
+  text-align: center;
 `
 
-const LayoutFooter = styled(Footer)`
-  flex: none;
-`
-
-export default function Layout({ children }) {
+export function Layout({ children }) {
   return (
     <>
-      <GlobalStyle />
-      <LayoutContainer>
-        <LayoutHeader />
-        <LayoutMain>{children}</LayoutMain>
-        <LayoutFooter />
-      </LayoutContainer>
+      <GlobalStyles />
+      <Wrapper>
+        <Header>
+          <Container justify="flex-end">
+            <Logo />
+            <Nav />
+          </Container>
+        </Header>
+        <Body>{children}</Body>
+        <Footer>&copy; Louis Frankland 2020</Footer>
+      </Wrapper>
     </>
   )
 }

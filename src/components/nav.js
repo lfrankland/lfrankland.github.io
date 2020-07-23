@@ -1,35 +1,34 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import styled from 'styled-components'
+import { Link as GatsbyLink } from 'gatsby'
 
-const NavContainer = styled.nav`
+const LinkGroup = styled.nav`
   display: flex;
-  height: auto;
+  flex: none;
+  margin-left: auto;
 `
 
-const NavLink = styled(Link)`
+const Link = styled(GatsbyLink)`
   border-radius: 4px;
   color: var(--color-dark);
   display: block;
   flex: none;
   font-weight: 500;
-  padding: 8px 16px;
   margin-right: 4px;
+  padding: 8px 16px;
   text-decoration: none;
   transition: linear 100ms;
 
   &:hover {
-    background: var(--color-primary);
+    background-color: var(--color-primary);
     color: var(--color-light);
   }
 `
 
-const Nav = () => (
-  <NavContainer>
-    <NavLink to="/">Home</NavLink>
-    <NavLink to="/#projects">Projects</NavLink>
-    <NavLink to="/contact">Contact</NavLink>
-  </NavContainer>
+export const Nav = () => (
+  <LinkGroup justify="flex-end">
+    <Link to="/">Home</Link>
+    <Link to="/#projects">Projects</Link>
+    <Link to="/contact">Contact</Link>
+  </LinkGroup>
 )
-
-export default Nav
