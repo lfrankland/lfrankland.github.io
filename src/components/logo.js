@@ -1,58 +1,16 @@
-import React from 'react'
-import Img from 'gatsby-image'
-import styled, { keyframes } from 'styled-components'
-import { Link as GatsbyLink, graphql, useStaticQuery } from 'gatsby'
-import { Text } from './text'
+import React from "react"
+import styled from "styled-components"
 
-const tadaAnimation = keyframes`
-	from { transform: scale3d(1, 1, 1); }
-	10%, 20% { transform: scale3d(0.95, 0.95, 0.95) rotate3d(0, 0, 1, -3deg); }
-    30%, 50%, 70%, 90% { transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, 3deg); }
-    40%, 60%, 80% { transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, -3deg); }
-	to { transform: scale3d(1, 1, 1); }
+const SVG = styled.svg`  
+    height: 32px;
+    margin-right: 16px;
+    width: 32px;
 `
 
-const Avatar = styled(Img)`
-  border-radius: 50%;
-  margin-right: 16px;
-  overflow: hidden;
-`
+const Logo = () => (
+  <SVG xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+    <path d="M32,0A32,32,0,1,0,64,32,32,32,0,0,0,32,0ZM29.84,48.91H12V15.09h6.62V42.58H29.84ZM52,21.47H40.39v7.68h8.49V34.9H40.39V48.81H33.77V15.09H52Z" />
+  </SVG>
+)
 
-const Link = styled(GatsbyLink)`
-  align-items: center;
-  color: var(--color-dark);
-  display: flex;
-  margin-bottom: 0;
-  text-decoration: none;
-
-  &:hover ${Avatar} {
-    animation: ${tadaAnimation} 1s;
-  }
-`
-
-export function Logo() {
-  const data = useStaticQuery(graphql`
-    query {
-      file(relativePath: { eq: "profile-pic.jpg" }) {
-        childImageSharp {
-          fixed(width: 32, height: 32) {
-            base64
-            width
-            height
-            src
-            srcSet
-          }
-        }
-      }
-    }
-  `)
-
-  return (
-    <Link to="/">
-      <Avatar fixed={data.file.childImageSharp.fixed} alt="Profile Pic" />
-      <Text size="heading3" hiddenMobile noMargin>
-        <strong>Louis Frankland</strong>
-      </Text>
-    </Link>
-  )
-}
+export default Logo

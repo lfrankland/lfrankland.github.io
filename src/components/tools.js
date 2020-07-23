@@ -2,18 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 import { Text } from './text'
 
-const Wrapper = styled.div`
+const ToolsWrapper = styled.div`
   padding: 32px 0;
 `
 
-const ToolGroup = styled.ul`
+const ToolList = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   list-style: none;
+  justify-content: center;
+  padding: 0;
   margin: auto;
   max-width: var(--max-width);
-  padding: 0;
 `
 
 const Tool = styled.li`
@@ -32,46 +32,38 @@ const Tool = styled.li`
   }
 `
 
-export function Tools() {
-  return (
-    <Wrapper>
-      <Text as="h2" size="display2" textAlign="center" color="white">
-        Tools &amp; Technologies
-      </Text>
+const Tools = () => (
+  <ToolsWrapper>
+    <Text as="h2" size="display2" textAlign="center" color="white">
+      Tools &amp; Technologies
+    </Text>
+    <ToolList>
+      <Tool>
+        <img src={'/logos/html5.svg'} alt="HTML5" />
+      </Tool>
+      <Tool>
+        <img src={'/logos/css3.svg'} alt="CSS3" />
+      </Tool>
+      <Tool>
+        <img src={'/logos/sass.svg'} alt="Sass" />
+      </Tool>
+      <Tool>
+        <img src={'/logos/gatsby.svg'} alt="GatsbyJS" />
+      </Tool>
+      <Tool>
+        <img src={'/logos/react.svg'} alt="React" />
+      </Tool>
+      <Tool>
+        <img src={'/logos/styled-components.png'} alt="Styled Components" />
+      </Tool>
+      <Tool>
+        <img src={'/logos/illustrator.svg'} alt="Illustrator" />
+      </Tool>
+      <Tool>
+        <img src={'/logos/photoshop.svg'} alt="Photoshop" />
+      </Tool>
+    </ToolList>
+  </ToolsWrapper>
+)
 
-      <ToolGroup>
-        <Tool>
-          <img src="/logos/html5.svg" alt="HTML5" />
-        </Tool>
-
-        <Tool>
-          <img src="/logos/css3.svg" alt="CSS3" />
-        </Tool>
-
-        <Tool>
-          <img src="/logos/sass.svg" alt="Sass" />
-        </Tool>
-
-        <Tool>
-          <img src="/logos/gatsby.svg" alt="GatsbyJS" />
-        </Tool>
-
-        <Tool>
-          <img src="/logos/react.svg" alt="React" />
-        </Tool>
-
-        <Tool>
-          <img src="/logos/styled-components.png" alt="Styled Components" />
-        </Tool>
-
-        <Tool>
-          <img src="/logos/illustrator.svg" alt="Illustrator" />
-        </Tool>
-
-        <Tool>
-          <img src="/logos/photoshop.svg" alt="Photoshop" />
-        </Tool>
-      </ToolGroup>
-    </Wrapper>
-  )
-}
+export default Tools
