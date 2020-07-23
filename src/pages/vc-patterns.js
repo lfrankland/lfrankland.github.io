@@ -1,13 +1,13 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import { Container } from '../components/container'
-import { Layout } from '../components/layout'
+import { Text } from '../components/text'
+import { TagGroup, Tag } from '../components/tags'
 import { ProjectHeader } from '../components/project-header'
 import { ProjectImage } from '../components/project-image'
-import { TagGroup, Tag } from '../components/tags'
-import { Text } from '../components/text'
+import Layout from '../components/layout'
+import { Container } from '../components/container'
 
-export default function VCPatternsPage() {
+const Page = () => {
   const { patternLibraryScreenshot } = useStaticQuery(
     graphql`
       query {
@@ -91,7 +91,7 @@ export default function VCPatternsPage() {
         </Text>
 
         <ProjectImage
-          fluid={patternLibraryScreenshot.childImageSharp.fluid}
+          image={patternLibraryScreenshot.childImageSharp.fluid}
           alt="Screenshot of the Pattern Library"
         />
 
@@ -157,3 +157,5 @@ export default function VCPatternsPage() {
     </Layout>
   )
 }
+
+export default Page

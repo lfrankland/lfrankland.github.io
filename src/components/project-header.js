@@ -7,10 +7,10 @@ const animatedGradient = keyframes`
 `
 
 export const ProjectHeader = styled.header`
-  animation: ${animatedGradient} 24s ease infinite;
-  background-image: var(--main-gradient);
+  background: var(--main-gradient);
   background-size: 400% 400%;
   color: var(--color-light);
-  margin-bottom: 24px;
   padding: 64px 0;
+  animation: ${animatedGradient} 24s ease infinite;
+  margin-bottom: 24px;
 `

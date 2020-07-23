@@ -59,24 +59,8 @@ const sizes = {
 
 export const Text = styled.p`
   text-align: ${({ textAlign }) => textAlign};
-
   ${({ color }) => colors[color]};
-
   ${({ size }) => sizes[size]};
-
-  ${({ hiddenMobile }) =>
-    hiddenMobile &&
-    css`
-      @media (max-width: 616px) {
-        display: none;
-      }
-    `}
-
-  ${({ noMargin }) =>
-    noMargin &&
-    css`
-      margin: 0;
-    `}
 `
 
 Text.defaultProps = {

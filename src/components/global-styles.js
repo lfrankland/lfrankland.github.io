@@ -1,22 +1,19 @@
 import { createGlobalStyle } from 'styled-components'
 
-export const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
 	:root {
-		--color-dark: hsl(305, 5%, 25%);
 		--color-grey: hsl(305, 5%, 80%);
+		--color-dark: hsl(305, 5%, 25%);
 		--color-light: hsl(305, 5%, 98%);
-		--color-primary-hover: hsla(306, 50%, 41%, 0.2);
+
+		--main-gradient: linear-gradient(to right, #3a7bd5 0%, #3a6073 51%, #3a7bd5 100%);
+
+		--max-width: 1200px;
 		--color-primary: #3a70b0;
+		--color-primary-hover: hsla(306, 50%, 41%, 0.2);
+
 		--font-stack: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 			Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-		--main-gradient: linear-gradient(to right, #3a7bd5 0%, #3a6073 100%);
-		--max-width: 1200px;
-	}
-
-	* {
-		box-sizing: border-box;
-		margin: 0;
-		padding: 0;
 	}
 
 	html {
@@ -27,6 +24,12 @@ export const GlobalStyles = createGlobalStyle`
 
 	body {
 		color: var(--color-light);	
+		padding: 0;
+		margin: 0;
+	}
+
+	* {
+		box-sizing: border-box;
 		margin: 0;
 		padding: 0;
 	}
@@ -41,3 +44,5 @@ export const GlobalStyles = createGlobalStyle`
 	}
 	
 `
+
+export default GlobalStyles
