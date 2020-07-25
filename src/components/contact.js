@@ -1,28 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Text } from './text'
 
 const Field = styled.div`
-  width: 100%;
   margin-bottom: 16px;
+  width: 100%;
 `
 
 const Label = styled.label`
   display: block;
-  margin-bottom: 4px;
   font-weight: 600;
+  margin-bottom: 4px;
 `
 
 const Input = styled.input`
-  background: var(--color-light);
-  border: 2px solid transparent;
+  background-color: var(--color-light);
   border-radius: 2px;
-  height: 56px;
+  border: 2px solid transparent;
   font-family: var(--font-stack);
-
   font-size: 18px;
   font-weight: 400;
-  outline: none;
+  height: 56px;
   opacity: 0.6;
+  outline: none;
   padding: 8px;
   transition: 160ms;
   width: 100%;
@@ -34,19 +34,19 @@ const Input = styled.input`
 `
 
 const Textarea = styled.textarea`
-  background: var(--color-light);
-  border: 2px solid transparent;
+  background-color: var(--color-light);
   border-radius: 2px;
+  border: 2px solid transparent;
   font-family: var(--font-stack);
   font-size: 18px;
   font-weight: 400;
   height: 128px;
-  outline: none;
   opacity: 0.6;
+  outline: none;
   padding: 8px;
   resize: none;
-  width: 100%;
   transition: 160ms;
+  width: 100%;
 
   &:focus,
   &:active {
@@ -55,18 +55,18 @@ const Textarea = styled.textarea`
 `
 
 const Button = styled.button`
-  background: transparent;
-  border: 3px solid var(--color-light);
+  background-color: transparent;
   border-radius: 2px;
+  border: 3px solid var(--color-light);
   color: var(--color-light);
   cursor: pointer;
   font-family: var(--font-stack);
   font-size: 1rem;
   font-weight: 600;
-  outline: none;
   height: 56px;
-  width: 100%;
+  outline: none;
   transition: 200ms;
+  width: 100%;
 
   &:hover,
   &:focus {
@@ -76,36 +76,42 @@ const Button = styled.button`
   }
 `
 
-const ContactWrapper = styled.main`
+const Wrapper = styled.main`
   display: flex;
   flex-direction: column;
-  max-width: 720px;
   margin: auto;
+  max-width: 720px;
   padding: 32px 16px;
 `
 
-const Contact = () => (
-  <ContactWrapper>
-    <h1>Get in touch</h1>
-    <form
-      action="https://getform.io/f/120128c8-0857-4706-9509-059d5ff49793"
-      method="POST"
-    >
-      <Field>
-        <Label htmlFor="name">Name</Label>
-        <Input type="text" name="name" id="name" required />
-      </Field>
-      <Field>
-        <Label htmlFor="email">Email address</Label>
-        <Input type="email" name="email" id="email" required />
-      </Field>
-      <Field>
-        <Label htmlFor="message">Message</Label>
-        <Textarea name="message" id="message" required></Textarea>
-      </Field>
-      <Button type="submit">Send</Button>
-    </form>
-  </ContactWrapper>
-)
+export function Contact() {
+  return (
+    <Wrapper>
+      <Text color="light" size="heading1">
+        Get in touch
+      </Text>
 
-export default Contact
+      <form
+        action="https://getform.io/f/120128c8-0857-4706-9509-059d5ff49793"
+        method="POST"
+      >
+        <Field>
+          <Label htmlFor="name">Name</Label>
+          <Input type="text" name="name" id="name" required />
+        </Field>
+
+        <Field>
+          <Label htmlFor="email">Email address</Label>
+          <Input type="email" name="email" id="email" required />
+        </Field>
+
+        <Field>
+          <Label htmlFor="message">Message</Label>
+          <Textarea name="message" id="message" required></Textarea>
+        </Field>
+
+        <Button type="submit">Send</Button>
+      </form>
+    </Wrapper>
+  )
+}

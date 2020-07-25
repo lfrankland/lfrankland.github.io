@@ -1,21 +1,21 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useStaticQuery } from 'gatsby'
-import Layout from '../components/layout'
+import { useStaticQuery, graphql } from 'gatsby'
 import { Container } from '../components/container'
-import SEO from '../components/seo'
-import Splash from '../components/splash'
-import Skills from '../components/skills'
-import Tools from '../components/tools'
 import { GradientBackground } from '../components/gradient-background'
+import { Layout } from '../components/layout'
 import { Project, ProjectGroup } from '../components/project'
+import { SEO } from '../components/seo'
+import { Skills } from '../components/skills'
+import { Splash } from '../components/splash'
 import { Text } from '../components/text'
+import { Tools } from '../components/tools'
 
 const ProjectsWrapper = styled.div`
   padding: 32px 0;
 `
 
-const Home = () => {
+export default function Home() {
   const { enableLMSImage, enableAuditImage, vcPatternsImage } = useStaticQuery(
     graphql`
       query {
@@ -67,7 +67,7 @@ const Home = () => {
               />
 
               <Project
-                href="/enable-lms-2"
+                href="/enable-lms"
                 title="Enable LMS"
                 image={enableLMSImage.childImageSharp.fluid}
                 description="Faciliating the learning journey for over four million users reach with their personal and career development."
@@ -82,7 +82,7 @@ const Home = () => {
               />
 
               <Project
-                href="/enable-audit-2"
+                href="/enable-audit"
                 title="Enable Audit"
                 image={enableAuditImage.childImageSharp.fluid}
                 description="Policy and procedure audit management platform to allow organisations to rapdily create, manage and report."
@@ -103,5 +103,3 @@ const Home = () => {
     </Layout>
   )
 }
-
-export default Home
