@@ -72,7 +72,7 @@ export const ProjectGroup = styled.div`
 
 export function Project({ href, title, description, image, tags, alt }) {
   return (
-    <Wrapper href={href}>
+    <Wrapper to={href}>
       <Image fluid={image} alt={alt} />
       <Details>
         <Text as="h3" size="heading3">

@@ -1,13 +1,13 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import { Text } from '../components/text'
-import { TagGroup, Tag } from '../components/tags'
+import { Container } from '../components/container'
+import { Layout } from '../components/layout'
 import { ProjectHeader } from '../components/project-header'
 import { ProjectImage } from '../components/project-image'
-import Layout from '../components/layout'
-import { Container } from '../components/container'
+import { TagGroup, Tag } from '../components/tags'
+import { Text } from '../components/text'
 
-const Page = () => {
+export default function EnableAuditPage() {
   const {
     editorScreenshot,
     overviewScreenshot,
@@ -57,20 +57,25 @@ const Page = () => {
         <Text as="h2" size="heading2">
           The challenge
         </Text>
+
         <Text>
           Allowing organisations to remotely carry out in-depth audits of
           polices and procedures across multiple sectors and audiences.
         </Text>
+
         <Text as="h2" size="heading2">
           My role
         </Text>
+
         <Text>
           User Research, User Experience Design, Personas, Documentation,
           Frontend, HTML, CSS, Sass
         </Text>
+
         <Text as="h2" size="heading2">
           Background
         </Text>
+
         <Text>
           Enable Audit arose after speaking with existing customers and
           identifying a need for them to track their compliance across multiple
@@ -78,22 +83,27 @@ const Page = () => {
           spreadsheets which had a high administration burden and low return
           rate from those asked to complete them.
         </Text>
+
         <Text as="h2" size="heading2">
           Research
         </Text>
+
         <Text>
           As well as reviewing competitors, we carried out surveys for customers
           and conducted user interviews to gain a holistic view of the
           processes, bottlenecks and how they perceived them. From these
           interviews and surveys.
         </Text>
+
         <ProjectImage
-          image={overviewScreenshot.childImageSharp.fluid}
+          fluid={overviewScreenshot.childImageSharp.fluid}
           alt="Screenshot of the Audit Overview"
         />
+
         <Text as="h2" size="heading2">
           Conceptualization
         </Text>
+
         <Text>
           From the research, user personas, journey maps and workflows were
           produced as part of an agile team. Facilitating multiple workshops
@@ -101,13 +111,16 @@ const Page = () => {
           perspective about what was possible and identify where value could be
           most gained.
         </Text>
+
         <ProjectImage
-          image={questionScreenshot.childImageSharp.fluid}
+          fluid={questionScreenshot.childImageSharp.fluid}
           alt="Screenshot of the Audit Question"
         />
+
         <Text as="h2" size="heading2">
           Wireframing and prototyping
         </Text>
+
         <Text>
           Working iteratively to create paper wireframes in the early stages and
           getting regular feedback from members of the team and potential
@@ -117,13 +130,16 @@ const Page = () => {
           owner to document each of the features so they can be developed as
           part of an agile team.
         </Text>
+
         <ProjectImage
-          image={editorScreenshot.childImageSharp.fluid}
+          fluid={editorScreenshot.childImageSharp.fluid}
           alt="Screenshot of the Audit Editor"
         />
+
         <Text as="h2" size="heading2">
           Frontend development
         </Text>
+
         <Text>
           As well as designing the product, I also developed the frontend. This
           involved building new components and revising others for the Virtual
@@ -136,5 +152,3 @@ const Page = () => {
     </Layout>
   )
 }
-
-export default Page
