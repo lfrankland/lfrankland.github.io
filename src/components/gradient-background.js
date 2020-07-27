@@ -7,7 +7,7 @@ const AnimatedGradient = keyframes`
 `
 
 export const GradientBackground = styled.div`
-  animation: ${AnimatedGradient} 24s ease infinite;
+  animation: ${AnimatedGradient} 18s ease infinite;
   background-image: var(--main-gradient);
   background-size: 400% 400%;
   height: 100%;

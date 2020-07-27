@@ -3,7 +3,7 @@ module.exports = {
     title: `Louis Frankland`,
     author: {
       name: `Louis Frankland`,
-      summary: `UI Developer and Designer with experience building websites, applications and components using HTML, CSS and JS.`,
+      summary: `Louis Frankland is a UI Developer and Designer with experience building websites, applications and components using HTML, CSS and JS.`,
     },
     description: `Louis Frankland's UI Developer Portfolio.`,
     siteUrl: `https://louisfrankland.com/`,

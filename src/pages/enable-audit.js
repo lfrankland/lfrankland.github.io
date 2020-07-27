@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
+import { SEO } from '../components/seo'
 import { Container } from '../components/container'
 import { Layout } from '../components/layout'
 import { ProjectHeader } from '../components/project-header'
@@ -30,6 +31,7 @@ export default function EnableAuditPage() {
 
   return (
     <Layout title="Page">
+      <SEO title="Enable Audit" />
       <ProjectHeader>
         <Container size="small">
           <Text as="h1" size="display1" color="white">

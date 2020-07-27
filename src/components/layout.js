@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 const Header = styled.header`
   background-color: var(--color-light);
   flex: none;
-  padding: 16px;
+  padding: 16px 0;
   width: 100%;
 `
 

@@ -33,9 +33,9 @@ export default function Home() {
   )
 
   return (
-    <Layout title="Louis's Site">
+    <Layout>
       <GradientBackground>
-        <SEO title="Portfolio" />
+        <SEO title="Home" />
 
         <Splash />
 
