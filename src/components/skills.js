@@ -90,7 +90,7 @@ export function Skills() {
           </Skill>
 
           <Skill>
-            <Icon src="/icons/accessibility.svg" alt="JavaScript Icon" />
+            <Icon src="/icons/accessibility.svg" alt="Accessibility Icon" />
             <Details>
               <Text as="h3" size="heading4">
                 Accessibility

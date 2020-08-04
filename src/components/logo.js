@@ -50,7 +50,7 @@ export function Logo() {
   return (
     <Link to="/">
       <Avatar fixed={data.file.childImageSharp.fixed} alt="Profile Pic" />
-      <Text size="heading3" hiddenMobile noMargin>
+      <Text size="heading3" as="h2" hiddenMobile noMargin>
         <strong>Louis Frankland</strong>
       </Text>
     </Link>
