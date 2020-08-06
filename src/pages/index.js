@@ -70,7 +70,7 @@ export default function Home() {
                 href="/enable-lms"
                 title="Enable LMS"
                 image={enableLMSImage.childImageSharp.fluid}
-                description="Faciliating the learning journey for over four million users reach with their personal and career development."
+                description="Faciliating the learning journey for over four million users with their personal and career development."
                 tags={[
                   'User Experience',
                   'User Interface',
@@ -85,7 +85,7 @@ export default function Home() {
                 href="/enable-audit"
                 title="Enable Audit"
                 image={enableAuditImage.childImageSharp.fluid}
-                description="Policy and procedure audit management platform to allow organisations to rapdily create, manage and report."
+                description="Policies and procedures audit management platform to allow organisations to rapdily create, manage and report on their audits."
                 tags={[
                   'User Experience',
                   'User Interface',

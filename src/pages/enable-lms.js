@@ -49,8 +49,8 @@ export default function EnableLmsPage() {
           </Text>
 
           <Text color="white">
-            Faciliating the learning journey for over four million users reach
-            with their personal and career development.
+            Faciliating the learning journey for over four million users,
+            helping them with their personal and career development.
           </Text>
 
           <TagGroup>
@@ -70,12 +70,12 @@ export default function EnableLmsPage() {
         </Text>
 
         <Text>
-          The Enable LMS is a powerful enterprise-level learning platform,
-          designed to facilitate the eLearning delivery across many different
-          sectors and audiences, from individual learners to multi-national
-          organisations. My goal was to ensure it could meet all these needs
-          effectively, giving learners, training professionals and Virtual
-          College staff the tools and abilities to exceed their expectations.
+          The Enable LMS is an enterprise-level learning platform, designed to
+          facilitate the eLearning delivery across many different sectors and
+          audiences, from individual learners to multi-national organisations.
+          My goal was to ensure it could meet all these needs effectively,
+          giving learners, training professionals and Virtual College staff the
+          tools and abilities to exceed their expectations.
         </Text>
 
         <Text as="h3" size="heading3">

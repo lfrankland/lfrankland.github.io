@@ -39,8 +39,8 @@ export default function EnableAuditPage() {
           </Text>
 
           <Text color="white">
-            Policy and procedure audit management platform to allow
-            organisations to rapdily create, manage and report.
+            Policies and procedures audit management platform to allow
+            organisations to rapdily create, manage and report on audits.
           </Text>
 
           <TagGroup>
