@@ -69,7 +69,7 @@ export function Skills() {
               </Text>
               <Text size="body2">
                 Strong understanding of modern semantic HTML &amp; CSS
-                principles and practices to ensure W3C valid code for all
+                principles and practices to ensure W3C valid code across all
                 devices.
               </Text>
             </Details>
@@ -96,10 +96,9 @@ export function Skills() {
                 Accessibility
               </Text>
               <Text size="body2">
-                I believe that every user deserves a good experience, and
-                champion that this is the case for people who use assistive
-                technologies. I have a deep understanding of the W3C WCAG
-                specification.
+                I believe that every user deserves the best experience possible
+                and champion for those who use assistive technologies. I have a
+                deep understanding of the W3C WCAG specification.
               </Text>
             </Details>
           </Skill>
@@ -111,8 +110,9 @@ export function Skills() {
                 Methodologies
               </Text>
               <Text size="body2">
-                Introduced CSS methodologies across development projects and
-                teams for consistent and maintainable front-end code.
+                Introduced CSS methodologies across multiple development
+                projects and teams for consistent, scalable and maintainable
+                front-end code.
               </Text>
             </Details>
           </Skill>
@@ -139,7 +139,8 @@ export function Skills() {
               </Text>
               <Text size="body2">
                 Devising, carrying out, reviewing and analysing usability
-                testing sessions on core commercial user journeys.
+                testing sessions on core commercial user journeys to make real
+                improvements for users.
               </Text>
             </Details>
           </Skill>
