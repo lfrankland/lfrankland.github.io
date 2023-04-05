@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useStaticQuery, graphql } from 'gatsby'
+import { getImage } from 'gatsby-plugin-image'
 import { Container } from '../components/container'
 import { GradientBackground } from '../components/gradient-background'
 import { Layout } from '../components/layout'
 import { Project, ProjectGroup } from '../components/project'
-import { SEO } from '../components/seo'
+import { Seo } from '../components/seo'
 import { Skills } from '../components/skills'
 import { Splash } from '../components/splash'
 import { Text } from '../components/text'
@@ -20,13 +21,19 @@ export default function Home() {
     graphql`
       query {
         enableLMSImage: file(relativePath: { eq: "th-enable-lms.png" }) {
-          ...fluidImage
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
         enableAuditImage: file(relativePath: { eq: "th-enable-audit.png" }) {
-          ...fluidImage
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
         vcPatternsImage: file(relativePath: { eq: "th-vc-patterns.png" }) {
-          ...fluidImage
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
       }
     `
@@ -35,7 +42,7 @@ export default function Home() {
   return (
     <Layout>
       <GradientBackground>
-        <SEO title="Home" />
+        <Seo title="Home" />
 
         <Splash />
 
@@ -53,7 +60,8 @@ export default function Home() {
               <Project
                 href="/vc-patterns"
                 title="Virtual College Pattern Library"
-                image={vcPatternsImage.childImageSharp.fluid}
+                image={getImage(vcPatternsImage)}
+                alt="Virtual College Pattern Library"
                 description="The VC Pattern Library was used to deliever front-end components across multiple products and services for different sectors and audiences."
                 tags={[
                   'HTML',
@@ -69,7 +77,8 @@ export default function Home() {
               <Project
                 href="/enable-lms"
                 title="Enable LMS"
-                image={enableLMSImage.childImageSharp.fluid}
+                image={getImage(enableLMSImage)}
+                alt="Enable LMS"
                 description="Faciliating the learning journey for over four million users with their personal and career development."
                 tags={[
                   'User Experience',
@@ -84,7 +93,8 @@ export default function Home() {
               <Project
                 href="/enable-audit"
                 title="Enable Audit"
-                image={enableAuditImage.childImageSharp.fluid}
+                image={getImage(enableAuditImage)}
+                alt="Enable Audit"
                 description="Policies and procedures audit management platform to allow organisations to rapdily create, manage and report on their audits."
                 tags={[
                   'User Experience',

@@ -1,37 +1,41 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import { SEO } from '../components/seo'
+import { Seo } from '../components/seo'
 import { Container } from '../components/container'
 import { Layout } from '../components/layout'
 import { ProjectHeader } from '../components/project-header'
 import { ProjectImage } from '../components/project-image'
+import { getImage } from 'gatsby-plugin-image'
 import { TagGroup, Tag } from '../components/tags'
 import { Text } from '../components/text'
 
 export default function EnableAuditPage() {
-  const {
-    editorScreenshot,
-    overviewScreenshot,
-    questionScreenshot,
-  } = useStaticQuery(
-    graphql`
-      query {
-        editorScreenshot: file(relativePath: { eq: "audit-editor.png" }) {
-          ...fluidImage
+  const { editorScreenshot, overviewScreenshot, questionScreenshot } =
+    useStaticQuery(
+      graphql`
+        query {
+          editorScreenshot: file(relativePath: { eq: "audit-editor.png" }) {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
+            }
+          }
+          overviewScreenshot: file(relativePath: { eq: "audit-overview.png" }) {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
+            }
+          }
+          questionScreenshot: file(relativePath: { eq: "audit-question.png" }) {
+            childImageSharp {
+              gatsbyImageData(layout: FULL_WIDTH)
+            }
+          }
         }
-        overviewScreenshot: file(relativePath: { eq: "audit-overview.png" }) {
-          ...fluidImage
-        }
-        questionScreenshot: file(relativePath: { eq: "audit-question.png" }) {
-          ...fluidImage
-        }
-      }
-    `
-  )
+      `
+    )
 
   return (
     <Layout title="Page">
-      <SEO title="Enable Audit" />
+      <Seo title="Enable Audit" />
       <ProjectHeader>
         <Container size="small">
           <Text as="h1" size="display1" color="white">
@@ -98,7 +102,7 @@ export default function EnableAuditPage() {
         </Text>
 
         <ProjectImage
-          fluid={overviewScreenshot.childImageSharp.fluid}
+          image={getImage(overviewScreenshot)}
           alt="Screenshot of the Audit Overview"
         />
 
@@ -115,7 +119,7 @@ export default function EnableAuditPage() {
         </Text>
 
         <ProjectImage
-          fluid={questionScreenshot.childImageSharp.fluid}
+          image={getImage(questionScreenshot)}
           alt="Screenshot of the Audit Question"
         />
 
@@ -134,7 +138,7 @@ export default function EnableAuditPage() {
         </Text>
 
         <ProjectImage
-          fluid={editorScreenshot.childImageSharp.fluid}
+          image={getImage(editorScreenshot)}
           alt="Screenshot of the Audit Editor"
         />
 

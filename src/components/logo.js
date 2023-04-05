@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from 'gatsby-image'
+import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import styled, { keyframes } from 'styled-components'
 import { Link as GatsbyLink, graphql, useStaticQuery } from 'gatsby'
 import { Text } from './text'
@@ -12,7 +12,7 @@ const tadaAnimation = keyframes`
 	to { transform: scale3d(1, 1, 1); }
 `
 
-const Avatar = styled(Img)`
+const Avatar = styled(GatsbyImage)`
   border-radius: 50%;
   margin-right: 16px;
   overflow: hidden;
@@ -35,13 +35,7 @@ export function Logo() {
     query {
       file(relativePath: { eq: "profile-pic.jpg" }) {
         childImageSharp {
-          fixed(width: 32, height: 32) {
-            base64
-            width
-            height
-            src
-            srcSet
-          }
+          gatsbyImageData(layout: FIXED, width: 32, height: 32)
         }
       }
     }
@@ -49,7 +43,10 @@ export function Logo() {
 
   return (
     <Link to="/">
-      <Avatar fixed={data.file.childImageSharp.fixed} alt="Profile Pic" />
+      <Avatar
+        image={getImage(data.file.childImageSharp.gatsbyImageData)}
+        alt="Profile Pic"
+      />
       <Text size="heading3" as="h2" hiddenMobile noMargin>
         <strong>Louis Frankland</strong>
       </Text>

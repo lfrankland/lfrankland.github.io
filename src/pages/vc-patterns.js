@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import { SEO } from '../components/seo'
+import { getImage } from 'gatsby-plugin-image'
+import { Seo } from '../components/seo'
 import { Container } from '../components/container'
 import { Layout } from '../components/layout'
 import { ProjectHeader } from '../components/project-header'
@@ -15,7 +16,9 @@ export default function VCPatternsPage() {
         patternLibraryScreenshot: file(
           relativePath: { eq: "pattern-library.png" }
         ) {
-          ...fluidImage
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
       }
     `
@@ -23,7 +26,7 @@ export default function VCPatternsPage() {
 
   return (
     <Layout title="Page">
-      <SEO title="VC Pattern Library" />
+      <Seo title="VC Pattern Library" />
 
       <ProjectHeader>
         <Container size="small">
@@ -94,7 +97,7 @@ export default function VCPatternsPage() {
         </Text>
 
         <ProjectImage
-          fluid={patternLibraryScreenshot.childImageSharp.fluid}
+          image={getImage(patternLibraryScreenshot)}
           alt="Screenshot of the Pattern Library"
         />
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import { SEO } from '../components/seo'
+import { getImage } from 'gatsby-plugin-image'
+import { Seo } from '../components/seo'
 import { Container } from '../components/container'
 import { Layout } from '../components/layout'
 import { ProjectHeader } from '../components/project-header'
@@ -20,12 +21,16 @@ export default function EnableLmsPage() {
         certificateScreenshot: file(
           relativePath: { eq: "certificate-editor.png" }
         ) {
-          ...fluidImage
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
         dashboardScreenshot: file(
           relativePath: { eq: "enable-lms-dashboard.png" }
         ) {
-          ...fluidImage
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
         groupScreenshot: file(relativePath: { eq: "group-members.png" }) {
           ...fluidImage
@@ -33,7 +38,9 @@ export default function EnableLmsPage() {
         learningPlanScreenshot: file(
           relativePath: { eq: "learning-plan.png" }
         ) {
-          ...fluidImage
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH)
+          }
         }
       }
     `
@@ -42,7 +49,7 @@ export default function EnableLmsPage() {
   return (
     <Layout title="Page">
       <ProjectHeader>
-        <SEO title="Enable LMS" />
+        <Seo title="Enable LMS" />
         <Container size="small">
           <Text as="h1" size="display1" color="white">
             Enable LMS
@@ -118,7 +125,7 @@ export default function EnableLmsPage() {
         </Text>
 
         <ProjectImage
-          fluid={dashboardScreenshot.childImageSharp.fluid}
+          image={getImage(dashboardScreenshot)}
           alt="Screenshot of the Enable LMS Dashboard"
         />
 
@@ -154,7 +161,7 @@ export default function EnableLmsPage() {
         </Text>
 
         <ProjectImage
-          fluid={certificateScreenshot.childImageSharp.fluid}
+          image={getImage(certificateScreenshot)}
           alt="Screenshot of the Certificate Editor"
         />
 
@@ -170,7 +177,7 @@ export default function EnableLmsPage() {
         </Text>
 
         <ProjectImage
-          fluid={groupScreenshot.childImageSharp.fluid}
+          image={getImage(groupScreenshot)}
           alt="Screenshot of the Group Management"
         />
 
@@ -187,7 +194,7 @@ export default function EnableLmsPage() {
         </Text>
 
         <ProjectImage
-          fluid={learningPlanScreenshot.childImageSharp.fluid}
+          image={getImage(learningPlanScreenshot)}
           alt="Screenshot of the Automated Learning Plans"
         />
 

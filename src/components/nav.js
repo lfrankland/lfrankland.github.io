@@ -29,6 +29,6 @@ export const Nav = () => (
   <LinkGroup justify="flex-end">
     <Link to="/">Home</Link>
     <Link to="/#projects">Projects</Link>
-    <Link to="/contact">Contact</Link>
+    {/* <Link to="/contact">Contact</Link> */}
   </LinkGroup>
 )
