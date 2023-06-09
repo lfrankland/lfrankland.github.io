@@ -10,7 +10,7 @@
     "url": "https://lfrankland.github.io"
   },
   "dependencies": {
-    "gatsby": "^5.8.1",
+    "gatsby": "^5.9.1",
     "gatsby-cli": "^5.8.0",
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-manifest": "^5.8.0",
