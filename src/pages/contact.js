@@ -8,7 +8,6 @@ const ContactPage = ({ location }) => {
   return (
     <Layout location={location}>
       <GradientBackground>
-        <Seo title="Contact" />
         <Contact />
       </GradientBackground>
     </Layout>
@@ -16,3 +15,5 @@ const ContactPage = ({ location }) => {
 }
 
 export default ContactPage
+
+export const Head = () => <Seo title="Contact" />

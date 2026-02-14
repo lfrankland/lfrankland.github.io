@@ -12,7 +12,7 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
+    // Gatsby has built-in Head API — remove react-helmet plugin
     `gatsby-transformer-sharp`,
     `gatsby-plugin-image`,
     {

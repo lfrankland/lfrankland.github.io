@@ -35,7 +35,7 @@ export default function EnableAuditPage() {
 
   return (
     <Layout title="Page">
-      <Seo title="Enable Audit" />
+      
       <ProjectHeader>
         <Container size="small">
           <Text as="h1" size="display1" color="white">
@@ -158,3 +158,5 @@ export default function EnableAuditPage() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="Enable Audit" />

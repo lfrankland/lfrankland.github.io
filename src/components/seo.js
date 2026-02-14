@@ -1,5 +1,4 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 
 export function Seo({ description, lang, meta, title }) {
@@ -21,48 +20,59 @@ export function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
 
+  const baseMeta = [
+    {
+      name: `description`,
+      content: metaDescription,
+    },
+    {
+      property: `og:title`,
+      content: title,
+    },
+    {
+      property: `og:description`,
+      content: metaDescription,
+    },
+    {
+      property: `og:type`,
+      content: `website`,
+    },
+    {
+      name: `twitter:card`,
+      content: `summary`,
+    },
+    {
+      name: `twitter:creator`,
+      content: site.siteMetadata.social.twitter,
+    },
+    {
+      name: `twitter:title`,
+      content: title,
+    },
+    {
+      name: `twitter:description`,
+      content: metaDescription,
+    },
+  ]
+
+  const combinedMeta = baseMeta.concat(meta || [])
+
   return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.social.twitter,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
-    />
+    <>
+      {title ? (
+        <title>{`${title} | ${site.siteMetadata.title}`}</title>
+      ) : (
+        <title>{site.siteMetadata.title}</title>
+      )}
+
+      {combinedMeta.map((m, i) =>
+        m.name ? (
+          <meta key={i} name={m.name} content={m.content} />
+        ) : (
+          <meta key={i} property={m.property} content={m.content} />
+        )
+      )}
+    </>
   )
 }
 

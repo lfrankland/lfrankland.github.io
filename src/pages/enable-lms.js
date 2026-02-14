@@ -49,7 +49,7 @@ export default function EnableLmsPage() {
   return (
     <Layout title="Page">
       <ProjectHeader>
-        <Seo title="Enable LMS" />
+        
         <Container size="small">
           <Text as="h1" size="display1" color="white">
             Enable LMS
@@ -212,3 +212,5 @@ export default function EnableLmsPage() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="Enable LMS" />

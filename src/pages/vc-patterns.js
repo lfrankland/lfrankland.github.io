@@ -26,7 +26,7 @@ export default function VCPatternsPage() {
 
   return (
     <Layout title="Page">
-      <Seo title="VC Pattern Library" />
+      
 
       <ProjectHeader>
         <Container size="small">
@@ -163,3 +163,5 @@ export default function VCPatternsPage() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="VC Pattern Library" />

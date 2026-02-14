@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <Layout>
       <GradientBackground>
-        <Seo title="Home" />
+        
 
         <Splash />
 
@@ -113,3 +113,5 @@ export default function Home() {
     </Layout>
   )
 }
+
+export const Head = () => <Seo title="Home" />

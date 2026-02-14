@@ -42,7 +42,7 @@ export function Layout({ children }) {
           </Container>
         </Header>
         <Body>{children}</Body>
-        <Footer>&copy; Louis Frankland 2024</Footer>
+        <Footer>&copy; Louis Frankland {new Date().getFullYear()}</Footer>
       </Wrapper>
     </>
   )

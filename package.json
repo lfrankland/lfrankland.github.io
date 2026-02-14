@@ -10,26 +10,25 @@
     "url": "https://lfrankland.github.io"
   },
   "dependencies": {
-    "gatsby": "^5.13.4",
-    "gatsby-cli": "^5.13.3",
-    "gatsby-plugin-image": "^3.13.1",
-    "gatsby-plugin-manifest": "^5.13.1",
-    "gatsby-plugin-offline": "^6.13.2",
-    "gatsby-plugin-react-helmet": "^6.13.1",
-    "gatsby-plugin-sharp": "^5.13.1",
-    "gatsby-plugin-styled-components": "^6.13.1",
-    "gatsby-source-filesystem": "^5.13.1",
-    "gatsby-transformer-sharp": "^5.13.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0",
-    "styled-components": "^6.1.8",
+    "gatsby": "^5.16.1",
+    "gatsby-cli": "^5.16.0",
+    "gatsby-plugin-image": "^3.16.0",
+    "gatsby-plugin-manifest": "^5.16.0",
+    "gatsby-plugin-offline": "^6.16.0",
+    "gatsby-plugin-sharp": "^5.16.0",
+    "gatsby-plugin-styled-components": "^6.16.0",
+    "gatsby-source-filesystem": "^5.16.0",
+    "gatsby-transformer-sharp": "^5.16.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    
+    "styled-components": "^6.3.9",
     "typography": "^0.16.24"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^2.1.4",
-    "gh-pages": "^6.1.1",
-    "prettier": "^3.2.5"
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.8.1"
   },
   "scripts": {
     "build": "gatsby build",
