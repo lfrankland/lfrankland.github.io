@@ -41,35 +41,28 @@ export function Tools() {
 
       <ToolGroup>
         <Tool>
-          <img src="/logos/html5.svg" alt="HTML5" />
+          <img src="/logos/html5.svg" alt="HTML5" width="48" height="48" />
         </Tool>
-
         <Tool>
-          <img src="/logos/css3.svg" alt="CSS3" />
+          <img src="/logos/css3.svg" alt="CSS3" width="48" height="48" />
         </Tool>
-
         <Tool>
-          <img src="/logos/sass.svg" alt="Sass" />
+          <img src="/logos/sass.svg" alt="Sass" width="48" height="48" />
         </Tool>
-
         <Tool>
-          <img src="/logos/gatsby.svg" alt="GatsbyJS" />
+          <img src="/logos/gatsby.svg" alt="GatsbyJS" width="48" height="48" />
         </Tool>
-
         <Tool>
-          <img src="/logos/react.svg" alt="React" />
+          <img src="/logos/react.svg" alt="React" width="48" height="48" />
         </Tool>
-
         <Tool>
-          <img src="/logos/styled-components.png" alt="Styled Components" />
+          <img src="/logos/styled-components.png" alt="Styled Components" width="48" height="48" />
         </Tool>
-
         <Tool>
-          <img src="/logos/illustrator.svg" alt="Illustrator" />
+          <img src="/logos/illustrator.svg" alt="Illustrator" width="48" height="48" />
         </Tool>
-
         <Tool>
-          <img src="/logos/photoshop.svg" alt="Photoshop" />
+          <img src="/logos/photoshop.svg" alt="Photoshop" width="48" height="48" />
         </Tool>
       </ToolGroup>
     </Wrapper>

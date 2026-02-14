@@ -57,6 +57,10 @@ export function Seo({ description, lang, meta, title }) {
 
   const combinedMeta = baseMeta.concat(meta || [])
 
+  // Gatsby's Head API expects the component to return elements that belong
+  // inside the document <head> (e.g. <title>, <meta>, <link>). Returning a
+  // full <html> or <body> here prevents Gatsby from correctly placing the
+  // tags — so only render head elements.
   return (
     <>
       {title ? (
@@ -64,7 +68,6 @@ export function Seo({ description, lang, meta, title }) {
       ) : (
         <title>{site.siteMetadata.title}</title>
       )}
-
       {combinedMeta.map((m, i) =>
         m.name ? (
           <meta key={i} name={m.name} content={m.content} />
@@ -77,7 +80,7 @@ export function Seo({ description, lang, meta, title }) {
 }
 
 Seo.defaultProps = {
-  lang: `en`,
+  lang: `en-gb`,
   meta: [],
   description: ``,
 }
